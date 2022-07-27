@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HMIP - MMS Integragtion</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="row">
+        <div class="col-10 mx-auto my-5">
+            <div class="card shadow-lg p-5">
+                <div class="">
+                    <form class="row g-3 mms__form" id="mms_form" accept="" method="POST" novalidate>
+                        <!-- First page starts here 13-->
+                        <hr>
+                        <div class="row g-3">
+                            <div class="col-md-4">
+                                <label for="salutation" class="form-label">Salutation</label>
+                                <select class="form-select" id="salutation" name="salutation" required>
+                                  <option value="mr" selected>Mr</option>
+                                  <option value="ms">Ms</option>
+                                  <option value="mrs">Mrs</option>
+                                  <option value="miss">Miss</option>
+                                  <option value="dr">Dr</option>
+                                  <option value="rev">Rev</option>
+                                  <option value="judge">Judge</option>
+                                  <option value="engr">Engr</option>
+                                  <option value="prof">Prof</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                  Please select an option
+                                </div>
+                            </div>
+    
+                            <div class="col-md-4">
+                              <label for="firstName" class="form-label">First name</label>
+                              <input type="text" class="form-control" name="firstName" value="Jeremiah" id="firstName" required>
+                              <div class="valid-feedback">
+                                Looks good!
+                              </div>
+                              <div class="invalid-feedback">
+                                Input is required
+                              </div>
+                            </div>
+    
+                            <div class="col-md-4">
+                                <label for="middleName" class="form-label">Middle name</label>
+                                <input type="text" class="form-control" id="middleName" value="F" name="middleName" required>
+                                <div class="valid-feedback">
+                                  Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                  Input is required
+                                </div>
+                            </div>
+    
+                            <div class="col-md-4">
+                              <label for="lastName" class="form-label">Last name</label>
+                              <input type="text" class="form-control" value="iro" id="lastName" required>
+                              <div class="valid-feedback">
+                                Looks good!
+                              </div>
+                              <div class="invalid-feedback">
+                                Input is required
+                              </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" value="jiro@gmail.com" required>
+                                <div class="valid-feedback">
+                                  Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                  Input is required
+                                </div>
+                              </div>
+    
+                            <div class="col-md-4">
+                                <label for="cell" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="cell" value="+234812345678" required>
+                                <div class="valid-feedback">
+                                  Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                  Input is required
+                                </div>
+                            </div>
+    
+                            <div class="col-md-4">
+                                <label for="dob" class="form-label">Date of Birth</label>
+                                <input type="date" class="form-control" id="dob" value="2014-02-09" required>
+                                <div class="valid-feedback">
+                                  Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                  Input is required
+                                </div>
+                            </div>
+    
+                            <div class="col-md-4">
+                              <label for="gender" class="form-label">Gender</label>
+                                <select class="form-select" id="gender" name="gender" required>
+                                  <option selected value="m">Male</option>
+                                  <option value="f">Female</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                  Please select an option
+                                </div>
+                            </div>
+    
+                            <div class="col-md-4">
+                                <label for="bvn" class="form-label">BVN</label>
+                                <input type="number" class="form-control" id="bvn" value="1234567890" required>
+                                <div class="valid-feedback">
+                                  Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                  Input is required
+                                </div>
+                            </div>
+    
+                            <div class="col-md-4">
+                                <label for="pencomPin" class="form-label">Pencom Pin</label>
+                                <input type="text" class="form-control" id="pencomPin" value="PEN1234567890" required>
+                                <div class="valid-feedback">
+                                  Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                  Input is required
+                                </div>
+                            </div>
+    
+                            <div class="col-md-4">
+                                <label for="purchase" class="form-label">Purchase Amount</label>
+                                <input type="number" class="form-control" id="purchase" value="100000" required>
+                                <div class="valid-feedback">
+                                  Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                  Input is required
+                                </div>
+                            </div>
+    
+                            <div class="col-md-4">
+                                <label for="deposit" class="form-label">Deposit Amount</label>
+                                <input type="number" class="form-control" id="deposit" value="200000" required>
+                                <div class="valid-feedback">
+                                  Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                  Input is required
+                                </div>
+                            </div>
+    
+                            <div class="col-md-4">
+                                <label for="termMonth" class="form-label">Term Month</label>
+                                <input type="number" class="form-control" id="termMonth" value="2" required>
+                                <div class="valid-feedback">
+                                  Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                  Input is required
+                                </div>
+                            </div>
+                        </div>
+                        <!-- First page ends here -->
+
+                        <!-- Second page starts here 8-->
+                        <hr>
+                        <div class="row g-3">
+                            <div class="col-md-4">
+                                <label for="state" class="form-label">State</label>
+                                <select class="form-select" id="state" name="state" required>
+                                  <option value="Abia">Abia State</option>
+                                  <option selected value="Abuja">Abuja</option>
+                                  <option value="AkwaIbom">Akwa Ibom</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                  Please select an option
+                                </div>
+                            </div>
+    
+                            <div class="col-md-4">
+                              <label for="lga" class="form-label">LGA</label>
+                              <select class="form-select" id="lga" name="lga" required>
+                                <option value="Aba North">Aba North</option>
+                                <option selected value="Aba South">Aba South</option>
+                                <option value="Arochukwu">Arochukwu</option>
+                              </select>
+                              <div class="invalid-feedback">
+                                Please select an option
+                              </div>
+                            </div>
+    
+                            <div class="col-md-4">
+                                <label for="location" class="form-label">Location or Area</label>
+                                <input type="text" class="form-control" id="location" value="FCT" required>
+                                <div class="valid-feedback">
+                                  Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                  Input is required
+                                </div>
+                            </div>
+    
+                            <div class="col-md-4">
+                              <label for="street_name" class="form-label">Street name</label>
+                              <input type="text" class="form-control" id="street_name" value="Wuse" required>
+                              <div class="valid-feedback">
+                                Looks good!
+                              </div>
+                              <div class="invalid-feedback">
+                                Input is required
+                              </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <label for="street_number" class="form-label">Street Number</label>
+                                <input type="text" class="form-control" id="street_number" value="6" required>
+                                <div class="valid-feedback">
+                                  Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                  Input is required
+                                </div>
+                              </div>
+    
+                            <div class="col-md-4">
+                                <label for="estate_name" class="form-label">Estate Name</label>
+                                <input type="text" class="form-control" id="estate_name" value="Gwarinpa" required>
+                                <div class="valid-feedback">
+                                  Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                  Input is required
+                                </div>
+                            </div>
+    
+                            <div class="col-md-4">
+                                <label for="unit" class="form-label">Unit</label>
+                                <input type="text" class="form-control" id="unit" placeholder="3 bedroom" value="1001" required>
+                                <div class="valid-feedback">
+                                  Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                  Input is required
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                              <label for="house_number" class="form-label">House Number</label>
+                              <input type="text" class="form-control" id="house_number" value="66" required>
+                              <div class="valid-feedback">
+                                Looks good!
+                              </div>
+                              <div class="invalid-feedback">
+                                Input is required
+                              </div>
+                            </div>
+    
+                        </div>
+                        <!-- Second page ends here -->
+
+                         <!-- Third page starts here 16-->
+                         <hr>
+                         <div class="row g-3">
+
+                            <div class="col-md-4">
+                              <label for="employer" class="form-label">Name of Employer</label>
+                              <input type="text" class="form-control" id="employer" value="TCL" required>
+                              <div class="valid-feedback">
+                                Looks good!
+                              </div>
+                              <div class="invalid-feedback">
+                                Input is required
+                              </div>
+                            </div>
+
+                            <div class="col-md-4">
+                              <label for="employee_id" class="form-label">Employee ID</label>
+                              <input type="text" class="form-control" id="employee_id" value="TCL_EM_23" required>
+                              <div class="valid-feedback">
+                                Looks good!
+                              </div>
+                              <div class="invalid-feedback">
+                                Input is required
+                              </div>
+                            </div>
+
+                            <div class="col-md-4">
+                              <label for="official_email" class="form-label">Official Email</label>
+                              <input type="email" class="form-control" id="official_email" value="emp@tcl.com" required>
+                              <div class="valid-feedback">
+                                Looks good!
+                              </div>
+                              <div class="invalid-feedback">
+                                Input is required
+                              </div>
+                            </div>
+
+                            <div class="col-md-4">
+                              <label for="designation" class="form-label">Designation</label>
+                              <input type="text" class="form-control" id="designation" value="Business Developer" required>
+                              <div class="valid-feedback">
+                                Looks good!
+                              </div>
+                              <div class="invalid-feedback">
+                                Input is required
+                              </div>
+                            </div>
+
+                             <div class="col-md-4">
+                                 <label for="employment_type" class="form-label">Employment type</label>
+                                 <select class="form-select" id="employment_type" name="employment_type" required>
+                                   <option selected value="fulltime">Permanent full time</option>
+                                   <option value="parttime">Permanent part time</option>
+                                   <option value="seasonal">Permanent - Seasonal</option>
+                                   <option value="tempfulltime">Temporary full time</option>
+                                   <option value="tempparttime">Temporary part time</option>
+                                   <option value="tempseasonal">Temporary - Seasonal</option>
+                                 </select>
+                                 <div class="invalid-feedback">
+                                   Please select an option
+                                 </div>
+                             </div>
+
+                             <div class="col-md-4">
+                                <label for="employment_status" class="form-label">Employment Status</label>
+                                <select class="form-select" id="employment_status" name="employment_status" required>
+                                  <option selected value="current">Current</option>
+                                  <option value="previous">Previous</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                  Please select an option
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                              <label for="employment_date" class="form-label">Employment Date</label>
+                              <input type="date" class="form-control" id="employment_date" value="2014-02-09" required>
+                              <div class="valid-feedback">
+                                Looks good!
+                              </div>
+                              <div class="invalid-feedback">
+                                Input is required
+                              </div>
+                            </div>
+
+                            <div class="col-md-4">
+                              <label for="income_amount" class="form-label">Income Amount</label>
+                              <input type="text" class="form-control" id="income_amount" value="20000" required>
+                              <div class="valid-feedback">
+                                Looks good!
+                              </div>
+                              <div class="invalid-feedback">
+                                Input is required
+                              </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <label for="income_type" class="form-label">Income Type</label>
+                                <select class="form-select" id="income_type" name="income_type" required>
+                                  <option selected value="salary">Salary</option>
+                                  <option value="investment">Investment</option>
+                                  <option value="support">Support</option>
+                                  <option value="alimony">Alimony</option>
+                                  <option value="otherincome">Other Income</option>
+                                  <option value="carallowance">Car Allowance</option>
+                                  <option value="pension">Pension</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                  Please select an option
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                              <label for="income_period" class="form-label">Income Period</label>
+                              <select class="form-select" id="income_period" name="income_period" required>
+                                <option selected value="Annual">Annual</option>
+                                <option value="Semi-Annual">Semi-Annual</option>
+                                <option value="Quarterly">Quarterly</option>
+                                <option value="Monthly">Monthly</option>
+                                <option value="Semi-Monthly">Semi-Monthly</option>
+                                <option value="Bi-Weekly">Bi-Weekly</option>
+                                <option value="Weekly">Weekly</option>
+                              </select>
+                              <div class="invalid-feedback">
+                                Please select an option
+                              </div>
+                            </div>
+
+                            <div class="col-md-4">
+                              <label for="occupation" class="form-label">Occupation</label>
+                              <select class="form-select" id="occupation" name="occupation" required>
+                                <option selected value="management">Management</option>
+                                <option value="clerical">Clerical</option>
+                                <option value="trades">Labour/Tradesperson</option>
+                                <option value="retired">Retired</option>
+                                <option value="profess">Professional</option>
+                                <option value="civil">Civil Servant</option>
+                                <option value="self">Self-Employed</option>
+                                <option value="other">Other</option>
+                              </select>
+                              <div class="valid-feedback">
+                                Looks good!
+                              </div>
+                              <div class="invalid-feedback">
+                                Input is required
+                              </div>
+                            </div>
+
+                            <div class="col-md-4">
+                              <label for="office_plot" class="form-label">Office Plot</label>
+                              <input type="text" class="form-control" id="office_plot" value="Zone 6" required>
+                              <div class="valid-feedback">
+                                Looks good!
+                              </div>
+                              <div class="invalid-feedback">
+                                Input is required
+                              </div>
+                            </div>
+
+                            <div class="col-md-4">
+                              <label for="office_street_name" class="form-label">Street Name</label>
+                              <input type="text" class="form-control" id="office_street_name" value="Harare" required>
+                              <div class="valid-feedback">
+                                Looks good!
+                              </div>
+                              <div class="invalid-feedback">
+                                Input is required
+                              </div>
+                            </div>
+
+                            <div class="col-md-4">
+                              <label for="office_street_number" class="form-label">Street Number</label>
+                              <input type="text" class="form-control" id="office_street_number" value="No 2" required>
+                              <div class="valid-feedback">
+                                Looks good!
+                              </div>
+                              <div class="invalid-feedback">
+                                Input is required
+                              </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <label for="employment_state" class="form-label">State</label>
+                                <select class="form-select" id="employment_state" name="employment_state" required>
+                                  <option selected disabled value="">Choose...</option>
+                                  <option value="Abia">Abia State</option>
+                                  <option selected value="Abuja">Abuja</option>
+                                  <option value="Zaria">Zaria</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                  Please select an option
+                                </div>
+                            </div>
+
+                             <div class="col-md-4">
+                               <label for="employment_lga" class="form-label">Employment LGA</label>
+                               <select class="form-select" id="employment_lga" name="employment_lga" required>
+                                <option value="Aba North">Aba North</option>
+                                <option selected value="Aba South">Aba South</option>
+                                <option value="Arochukwu">Arochukwu</option>
+                               </select>
+                               <div class="invalid-feedback">
+                                 Please select an option
+                               </div>
+                             </div>
+                         </div>
+                         <!-- Third page ends here -->
+
+                        <!-- Fourth page starts here 12-->
+                        <hr>
+                        <div class="row g-3">
+
+                          <div class="row">
+                            <h4>Other Income</h4>
+                            <div class="col-md-4">
+                              <label for="other_income_description" class="form-label">Other Income Description</label>
+                              <input type="text" class="form-control" id="other_income_description" value="Side Hustle" required>
+                              <div class="valid-feedback">
+                                Looks good!
+                              </div>
+                              <div class="invalid-feedback">
+                                Input is required
+                              </div>
+                            </div>
+  
+                            <div class="col-md-4">
+                              <label for="other_income_amount" class="form-label">Other Income Amount</label>
+                              <input type="text" class="form-control" id="other_income_amount" value="10000" required>
+                              <div class="valid-feedback">
+                                Looks good!
+                              </div>
+                              <div class="invalid-feedback">
+                                Input is required
+                              </div>
+                            </div>
+  
+                            <div class="col-md-4">
+                                <label for="other_income_period" class="form-label">Income Period</label>
+                                <select class="form-select" id="other_income_period" name="other_income_period" required>
+                                  <option selected value="Annual">Annual</option>
+                                  <option value="Semi-Annual">Semi-Annual</option>
+                                  <option value="Quarterly">Quarterly</option>
+                                  <option value="Monthly">Monthly</option>
+                                  <option value="Semi-Monthly">Semi-Monthly</option>
+                                  <option value="Bi-Weekly">Bi-Weekly</option>
+                                  <option value="Weekly">Weekly</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                  Please select an option
+                                </div>
+                            </div>
+      
+                            <div class="col-md-4">
+                              <label for="other_income_type" class="form-label">Inocme Type</label>
+                              <select class="form-select" id="other_income_type" name="other_income_type" required>
+                                <option value="salary">Salary</option>
+                                <option selected value="investment">Investment</option>
+                                <option value="support">Support</option>
+                                <option value="alimony">Alimony</option>
+                                <option value="otherincome">Other Income</option>
+                                <option value="carallowance">Car Allowance</option>
+                                <option value="pension">Pension</option>
+                              </select>
+                              <div class="invalid-feedback">
+                                Please select an option
+                              </div>
+                            </div>
+                          </div>
+    
+                          <div class="row">
+                          <h4>Asset</h4>
+                          <div class="col-md-4">
+                            <label for="asset_description" class="form-label">Asset Description</label>
+                            <input type="text" class="form-control" id="asset_description" value="Description here" required>
+                            <div class="valid-feedback">
+                              Looks good!
+                            </div>
+                            <div class="invalid-feedback">
+                              Input is required
+                            </div>
+                          </div>
+
+                          <div class="col-md-4">
+                            <label for="asset_value" class="form-label">Asset Value (Amount)</label>
+                            <input type="text" class="form-control" id="asset_value" value="10000" required>
+                            <div class="valid-feedback">
+                              Looks good!
+                            </div>
+                            <div class="invalid-feedback">
+                              Input is required
+                            </div>
+                          </div>
+
+                          <div class="col-md-4">
+                            <label for="asset_type" class="form-label">Asset Type</label>
+                            <select class="form-select" id="asset_type" name="asset_type" required>
+                              <option value="savings">Savings</option>
+                              <option selected value="pencom">PENCOM</option>
+                              <option value="rsa">RSA</option>
+                              <option value="gift">Gift</option>
+                              <option value="vehicle">Vehicle</option>
+                              <option value="stocksbondsmutual">Stocks/Bonds/Mutual</option>
+                              <option value="householdgoods">Household Goods</option>
+                              <option value="lifeinsur">Life Insurance</option>
+                              <option value="depositonpurch">Deposit on Purchase</option>
+                              <option value="mortloancoll">Mortgage Loan Collateral</option>
+                              <option value="other">Other</option>
+                            </select>
+                            <div class="valid-feedback">
+                              Looks good!
+                            </div>
+                            <div class="invalid-feedback">
+                              Input is required
+                            </div>
+                          </div>
+                          </div>
+
+                          <div class="row">
+                            <h4>Liabilities</h4>
+                            <div class="col-md-4">
+                              <label for="liability_account_number" class="form-label">Account Number</label>
+                              <input type="text" class="form-control" id="liability_account_number" value="123456789" required>
+                              <div class="valid-feedback">
+                                Looks good!
+                              </div>
+                              <div class="invalid-feedback">
+                                Input is required
+                              </div>
+                            </div>
+
+                            <div class="col-md-4">
+                              <label for="liability_balance" class="form-label">Balance (Amount)</label>
+                              <input type="text" class="form-control" id="liability_balance" value="12000" required>
+                              <div class="valid-feedback">
+                                Looks good!
+                              </div>
+                              <div class="invalid-feedback">
+                                Input is required
+                              </div>
+                            </div>
+
+                            <div class="col-md-4">
+                              <label for="liability_description" class="form-label">Description</label>
+                              <input type="text" class="form-control" id="liability_description" value="Liability desc" required>
+                              <div class="valid-feedback">
+                                Looks good!
+                              </div>
+                              <div class="invalid-feedback">
+                                Input is required
+                              </div>
+                            </div>
+
+                            <div class="col-md-4">
+                              <label for="liability_type" class="form-label">Liability Type</label>
+                              <select class="form-select" id="liability_type" name="liability_type" required>
+                                <option selected value="Agricultur">Agriculture Loan</option>
+                                <option value="AssetAcquisi">Asset Acquisition Loan</option>
+                                <option value="AutoLoan">Auto Loan</option>
+                                <option value="BaiSalam">Bai Salam Capital Finance</option>
+                                <option value="BankersAcc">Bankers Acceptance</option>
+                                <option value="Bonds">Bonds & Guarantees</option>
+                                <option value="Commercial">Commercial Papers</option>
+                                <option value="Consumption">Consumption Loan</option>
+                                <option value="ConsumerDurable">Consumer Durable Loans</option>
+                                <option value="CreditCard">Credit Card</option>
+                                <option value="DrawingsAgainst">Drawings Against Uncleared Effects</option>
+                                <option value="FastMoving">Fast Moving Consumer Goods</option>
+                                <option value="HomeLoan">Home Loan</option>
+                                <option value="HousingLoan">Housing Loan</option>
+                                <option value="IjarahAsset">Ijarah Asset Finance</option>
+                                <option value="IstisnaProject">Istisna Project Finance</option>
+                                <option value="Least">Least</option>
+                                <option value="LetterofCredit">Letter of Credit </option>
+                                <option value="Manufacturing">Manufacturing Loan</option>
+                                <option value="MortgageLoan">Mortgage Loan</option>
+                                <option value="Mudarabah">Mudarabah Bank Finance</option>
+                                <option value="MultipurposeLoan">Multipurpose Loan</option>
+                                <option value="MurabahaBank">Murabaha Bank Advance</option>
+                                <option value="MusharakahPart">Musharakah Part Finance</option>
+                                <option value="Overdraft">Overdraft</option>
+                                <option value="PersonalLoan">Personal Loan</option>
+                                <option value="ServicLoan">Service Loan</option>
+                                <option value="SharePurchaseLoan">Share Purchase Loan</option>
+                                <option value="Sukuk">Sukuk</option>
+                                <option value="TermLoan">Term Loan</option>
+                                <option value="TimeLoan">Time Loan</option>
+                                <option value="Trade">Trade / Commercial Loan</option>
+                                <option value="RevenueLoan">Revenue Loan</option>
+                                <option value="Warehousing">Warehousing Facility</option>
+                                <option value="other">Other</option>
+                              </select>
+                              <div class="valid-feedback">
+                                Looks good!
+                              </div>
+                              <div class="invalid-feedback">
+                                Input is required
+                              </div>
+                            </div>
+
+                            <div class="col-md-4">
+                              <label for="liability_monthly_payment" class="form-label">Monthly Payment (Amount)</label>
+                              <input type="text" class="form-control" id="liability_monthly_payment" value="10000" required>
+                              <div class="valid-feedback">
+                                Looks good!
+                              </div>
+                              <div class="invalid-feedback">
+                                Input is required
+                              </div>
+                            </div>
+                          </div>
+    
+                        </div>
+                        <!-- Fourth page ends here -->
+
+                        <!-- Fifth page starts here 21-->
+                        <hr>
+                        <div class="row g-3">
+
+                          <div class="col-md-4">
+                            <label for="property_area" class="form-label">Property Area</label>
+                            <input type="text" class="form-control" id="property_area" value="Municipality" required>
+                            <div class="valid-feedback">
+                              Looks good!
+                            </div>
+                            <div class="invalid-feedback">
+                              Input is required
+                            </div>
+                          </div>
+
+                          <div class="col-md-4">
+                            <label for="property_estate" class="form-label">Property Estate</label>
+                            <input type="text" class="form-control" id="property_estate" value="Asokoro" required>
+                            <div class="valid-feedback">
+                              Looks good!
+                            </div>
+                            <div class="invalid-feedback">
+                              Input is required
+                            </div>
+                          </div>
+
+                          <div class="col-md-4">
+                            <label for="property_street_name" class="form-label">Street Name</label>
+                            <input type="text" class="form-control" id="property_street_name" value="Jimmy Cater" required>
+                            <div class="invalid-feedback">
+                              Input is required
+                            </div>
+                          </div>
+
+                          <div class="col-md-4">
+                              <label for="property_house_plot" class="form-label">House Plot</label>
+                              <input type="text" class="form-control" id="property_house_plot" value="1234" required>
+                              <div class="invalid-feedback">
+                                Input is required
+                              </div>
+                          </div>
+  
+                          <div class="col-md-4">
+                              <label for="property_street_number" class="form-label">Street Number</label>
+                              <input type="text" class="form-control" id="property_street_number" value="22" required>
+                              <div class="invalid-feedback">
+                                Input is required
+                              </div>
+                          </div>
+    
+                          <div class="col-md-4">
+                            <label for="property_type" class="form-label">Property Type</label>
+                            <select class="form-select" id="property_type" name="property_type" required>
+                              <option value="bungfullydetached" selected>Bungalow Fully Developed</option>
+                              <option value="bungsemidetached">Bungalow Semi-Developed</option>
+                              <option value="bungmultiunit">Bungalow Multi-Unit</option>
+                              <option value="singfamdet">Single Family Detached</option>
+                              <option value="singfamsemidet">Single Family Semi-Detached</option>
+                              <option value="singfamunitindup">Single Family Unit in Duplex/Triplex</option>
+                              <option value="singfamunitinrow">Single Family Unit in Row/Town House</option>
+                              <option value="unitinbuild">Unit in Apartment Building</option>
+                              <option value="duplfully">Duplex Fully Detached</option>
+                              <option value="duplsemi">Duplex Semi-Detached</option>
+                              <option value="duplmulti">Duplex Multi-Unit</option>
+                              <option value="trifully">Triplex Fully Detached</option>
+                              <option value="trisemi">Triplex Semi-Detached</option>
+                              <option value="trimulti">Triplex Multi-Unit</option>
+                              <option value="blflstud">Block of Flats Studio</option>
+                              <option value="blflone">Block of Flats One Bedroom</option>
+                              <option value="blfltwo">Block of Flats Two Bedrooms</option>
+                              <option value="blflthr">Block of Flats Three Bedrooms</option>
+                              <option value="blflfou">Block of Flats Four Bedrooms</option>
+                            </select>
+                            <div class="invalid-feedback">
+                              Input is required
+                            </div>
+                          </div>
+
+                          <div class="col-md-4">
+                              <label for="property_state" class="form-label">Property State</label>
+                              <select class="form-select" id="property_state" name="property_state" required>
+                                  <option value="Abia">Abia State</option>
+                                  <option selected value="Abuja">Abuja</option>
+                                  <option value="Zaria">Zaria</option>
+                              </select>
+                              <div class="invalid-feedback">
+                                Please select an option
+                              </div>
+                          </div>
+
+                          <div class="col-md-4">
+                            <label for="property_lga" class="form-label">Property LGA</label>
+                            <select class="form-select" id="property_lga" name="property_lga" required>
+                              <option value="Aba North">Aba North</option>
+                              <option selected value="Aba South">Aba South</option>
+                              <option value="Arochukwu">Arochukwu</option>
+                            </select>
+                            <div class="invalid-feedback">
+                              Please select an option
+                            </div>
+                          </div>
+
+                          <div class="col-md-4">
+                            <label for="property_unit" class="form-label">Unit</label>
+                            <input type="text" class="form-control" id="property_unit" value="6 bedroom" required>
+                            <div class="invalid-feedback">
+                              Input is required
+                            </div>
+                          </div>
+
+                          <div class="col-md-4">
+                            <label for="tenure" class="form-label">Tenure</label>
+                            <select class="form-select" id="tenure" name="tenure" required>
+                              <option value="freehold">FreeHold</option>
+                              <option selected value="leasehold">LeaseHold</option>
+                              <option value="condo">Condo</option>
+                            </select>
+                            <div class="invalid-feedback">
+                              Input is required
+                            </div>
+                          </div>
+
+                          <div class="col-md-4">
+                            <label for="property_age" class="form-label">Age</label>
+                            <input type="text" class="form-control" id="property_age" value="2" required>
+                            <div class="invalid-feedback">
+                              Input is required
+                            </div>
+                          </div>
+
+                          <div class="col-md-4">
+                            <label for="living_space" class="form-label">Living Space</label>
+                            <input type="text" class="form-control" id="living_space" value="8" required>
+                            <div class="invalid-feedback">
+                              Input is required
+                            </div>
+                          </div>
+
+                          <div class="col-md-4">
+                            <label for="lot_size" class="form-label">Lot Size</label>
+                            <input type="text" class="form-control" id="lot_size" value="2345" required>
+                            <div class="invalid-feedback">
+                              Input is required
+                            </div>
+                          </div>
+
+                          <div class="col-md-4">
+                            <label for="number_of_rooms" class="form-label">Number of Rooms</label>
+                            <input type="text" class="form-control" id="number_of_rooms" value="6" required>
+                            <div class="invalid-feedback">
+                              Input is required
+                            </div>
+                          </div>
+
+                          <div class="col-md-4">
+                            <label for="property_plan" class="form-label">Plan</label>
+                            <input type="text" class="form-control" id="property_plan" value="None" required>
+                            <div class="invalid-feedback">
+                              Input is required
+                            </div>
+                          </div>
+
+                          <div class="col-md-4">
+                            <label for="property_annual_tax" class="form-label">Annual Taxes (Amount)</label>
+                            <input type="text" class="form-control" id="property_annual_tax" value="75000" required>
+                            <div class="invalid-feedback">
+                              Input is required
+                            </div>
+                          </div>
+
+                          <div class="col-md-4">
+                            <label for="property_estate_service_charge" class="form-label">Estate Service Charge (Amount)</label>
+                            <input type="text" class="form-control" id="property_estate_service_charge" value="20000" required>
+                            <div class="invalid-feedback">
+                              Input is required
+                            </div>
+                          </div>
+
+                          <div class="col-md-4">
+                            <label for="property_insurance" class="form-label">Insurance (Amount)</label>
+                            <input type="text" class="form-control" id="property_insurance" value="10000" required>
+                            <div class="invalid-feedback">
+                              Input is required
+                            </div>
+                          </div>
+
+                          <div class="col-md-4">
+                            <label for="property_valuation" class="form-label">Valuation (Amount)</label>
+                            <input type="text" class="form-control" id="property_valuation" value="15000" required>
+                            <div class="invalid-feedback">
+                              Input is required
+                            </div>
+                          </div>
+
+                          <div class="col-md-4">
+                            <label for="property_valuation_as_is" class="form-label">Valuation As Is (Amount)</label>
+                            <input type="text" class="form-control" id="property_valuation_as_is" value="15000" required>
+                            <div class="invalid-feedback">
+                              Input is required
+                            </div>
+                          </div>
+
+                          <div class="col-md-4">
+                            <label for="property_valuation_complete" class="form-label">Valuation Complete (Amount)</label>
+                            <input type="text" class="form-control" id="property_valuation_complete" value="15000" required>
+                            <div class="invalid-feedback">
+                              Input is required
+                            </div>
+                          </div>
+
+                          <div class="col-md-4">
+                            <label for="property_valuation_date" class="form-label">Valuation Date</label>
+                            <input type="date" class="form-control" id="property_valuation_date" value="2014-02-09" required>
+                            <div class="invalid-feedback">
+                              Input is required
+                            </div>
+                          </div>
+
+                          <div class="col-md-4">
+                            <label for="property_valuation_for_sale_as_is" class="form-label">Valuation For Sale As Is</label>
+                            <input type="text" class="form-control" id="property_valuation_for_sale_as_is" value="150000" required>
+                            <div class="invalid-feedback">
+                              Input is required
+                            </div>
+                          </div>
+
+                          <div class="col-md-4">
+                            <label for="property_valuation_for_sale_complete" class="form-label">Valuation For Sale Complete</label>
+                            <input type="text" class="form-control" id="property_valuation_for_sale_complete" value="20000" required>
+                            <div class="invalid-feedback">
+                              Input is required
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Fourth page ends here -->
+
+                        <div class="col-12">
+                          <button class="btn btn-primary" type="submit" id="btn_submit">
+                            Submit form
+                            <div class="spinner-border text-light spinner-border-sm hidden" id="loading" role="status">
+                              <span class="visually-hidden">Loading...</span>
+                            </div>
+                          </button>
+                        </div>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+    <script>
+      $( document ).ready(function() {
+        $('#loading').hide(100);
+        $('#mms_form').on('submit', e => {
+          e.preventDefault();
+
+          
+
+          let applicants = [
+            {
+              'applicantIndex': 1,
+              'salutation': $('#salutation').val(),
+              'firstName': $('#firstName').val(),
+              'middleName': $('#middleName').val(),
+              'lastName': $('#salutation').val(),
+              'email': $('#email').val(),
+              'dob': getFormatedDate($('#dob').val()),
+              'sex': $('#gender').val(),
+              'cell': $('#cell').val(),
+              'bvn': $('#bvn').val(),
+              'pencomPin': $('#pencomPin').val(),
+
+              'currentAddress': {
+                'unit': $('#unit').val(),
+                'state': $('#state').val(),
+                'city': $('#lga').val(),
+                'houseplot': $('#house_number').val(),
+                'streetNumber': $('#street_number').val(),
+                'streetName': $('#street_name').val(),
+                'estate': $('#estate_name').val(),
+                'location': $('#location').val(),
+                'countryCode': 'ng',
+              },
+
+              'employers': [
+                {
+                  'employerName': $('#employer').val(),
+                  'employeeId': $('#employee_id').val(),
+                  'email': $('#official_email').val(),
+                  'title': $('#designation').val(),
+                  'type': $('#employment_type').val(),
+                  'status': $('#employment_status').val(),
+                  'startDate': getFormatedDate($('#employment_date').val()),
+                  'incomeAmount': $('#income_amount').val(),
+                  'incomePeriod': $('#income_period').val(),
+                  'incomeType': $('#income_type').val(),
+                  'occupation': $('#occupation').val(),
+                  'unit': $('#unit').val(),
+                  'houseplot': $('#office_plot').val(),
+                  'streetNumber': $('#office_street_number').val(),
+                  'streetName': $('#office_street_name').val(),
+                  'estate': $('#estate_name').val(),
+                  'location': $('#office_location').val(),
+                  'city': $('#employment_lga').val(),
+                  'state': $('#employment_state').val(),
+                  'countryCode': 'ng',
+                },
+              ],
+
+              'otherIncome': [
+                {
+                  'description': $('#other_income_description').val(),
+                  'otherIncomeAmount': $('#other_income_amount').val(),
+                  'otherIncomePeriod': $('#other_income_period').val(),
+                  'otherIncomeType': $('#other_income_type').val(),
+                },
+              ],
+              'assets': [
+                {
+                  'assetType': $('#asset_type').val(),
+                  'description': $('#asset_description').val(),
+                  'value': $('#asset_value').val(),
+                },
+              ],
+              'liabilities': [
+                {
+                  'accountNumber': $('#liability_account_number').val(),
+                  'balance': $('#liability_balance').val(),
+                  'description': $('#liability_description').val(),
+                  'liabilityType': $('#liability_type').val(),
+                  'monthlyPayment': $('#liability_monthly_payment').val(),
+                },
+              ],
+            }
+          ];
+
+          let subjectProperty = {
+            'unit': $('#property_unit').val(),
+            'houseplot': $('#property_house_plot').val(),
+            'streetNumber': $('#property_street_number').val(),
+            'streetName': $('#property_street_name').val(),
+            'estate': $('#property_estate').val(),
+            'location': $('#property_area').val(),
+            'city': $('#property_lga').val(),
+            'state': $('#property_state').val(),
+            'countryCode': 'ng',
+            'type': $('#property_type').val(),
+            'tenure': $('#tenure').val(),
+            'age': $('#property_age').val(),
+            'livingSpace': $('#living_space').val(),
+            'lotSize': $('#lot_size').val(),
+            'numbersofrooms': $('#number_of_rooms').val(),
+            'plan': $('#property_plan').val(),
+            'plot': $('#property_house_plot').val(),
+            'annualTaxes': $('#property_annual_tax').val(),
+            'estateServiceCharges': $('#property_estate_service_charge').val(),
+            'insurance': $('#property_insurance').val(),
+            'valuation': $('#property_valuation').val(),
+            'valuationAsIs': $('#property_valuation_as_is').val(),
+            'valuationComplete': $('#property_valuation_complete').val(),
+            'valuationDate': getFormatedDate($('#property_valuation_date').val()),
+            'valuationForceSaleAsIs': $('#property_valuation_for_sale_as_is').val(),
+            'valuationForceSaleComplete': $('#property_valuation_for_sale_complete').val(),
+          };
+
+          let deal = {
+            'dealId': generateUniquDealId(),
+            'purchase': $('#purchase').val(),
+            'deposit': $('#deposit').val(),
+            'termMonths': $('#termMonth').val(),
+            'applicants': applicants,
+            'subjectProperty': subjectProperty
+          };
+
+          let data = {
+            'utcTime': getUtcTime(),
+            'deal': deal
+          }
+
+          var username = 'HMIP';
+          var password = '0zThegreat$$';
+          var authorization = 'Basic ' + btoa(username + ':' + password);
+
+          const headers = {
+            'Allow-Control-Allow-Origin': '*',
+            'Accept': "application/json",
+            'Content-Type': 'application/json',
+            'Authorization': authorization,
+          };
+
+          var MMS_URL = 'http://192.168.1.80:8443/mmsservices/service/deal';
+          var MMS_URL_2 = 'https://previewmms.nmrc.com.ng:8443/mmsservices/service/deal';
+
+          try {
+              $.ajax({
+                method: "POST",
+                url: MMS_URL_2,
+                dataType: 'json',
+                headers: headers,
+                data: JSON.stringify(data),
+                cache : false,
+                processData: false,
+                dataType: "json",
+                beforeSend: function(xhr) {
+                    $('#loading').show(100);
+                    $('#btn_submit').attr('disabled', true);
+                },
+                success: function (response){
+                  console.log(response);
+                  alert('Thanks you!'); 
+                  $('#loading').hide(100);
+                  $('#btn_submit').attr('disabled', false);
+                },
+                error: function (xhr) {
+                  console.log(xhr.responseText);
+                  alert('An error Occured');
+                  $('#loading').hide(100);
+                  $('#btn_submit').attr('disabled', false);
+                }
+              });
+          } catch (error) {
+            console.log(error);
+          }
+        });
+
+        function getUtcTime() {
+          var now = new Date();
+          now = new Date(now.setMinutes(now.getMinutes() + 5));
+          let utcTime = now.toISOString().split('.')[0] + 'Z';
+          return utcTime;
+        };
+
+        function getFormatedDate(value) {
+          return moment(String(value)).format('YYYY-MMM-DD').toUpperCase();
+        }
+
+        function generateUniquDealId() {
+            return Math.random().toString(36).substr(2, 8);
+        };
+      });
+
+    </script>
+</body>
+</html>

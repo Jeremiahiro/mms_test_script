@@ -1,0 +1,3975 @@
+list: [
+
+    {
+    property: "type",
+    parentComponent: "Property",
+    listValues: [
+    {
+    code: "bungfullydetached",
+    description: "Bungalow Fully Developed"
+    },
+    {
+    code: "bungsemidetached",
+    description: "Bungalow Semi-Developed"
+    },
+    {
+    code: "bungmultiunit",
+    description: "Bungalow Multi-Unit"
+    },
+    {
+    code: "",
+    description: ""
+    },
+    {
+    code: "",
+    description: ""
+    },
+    {
+    code: "singfamunitindup",
+    description: ""
+    },
+    {
+    code: "singfamunitinrow",
+    description: ""
+    },
+    {
+    code: "unitinbuild",
+    description: ""
+    },
+    {
+    code: "",
+    description: ""
+    },
+    {
+    code: "",
+    description: ""
+    },
+    {
+    code: "",
+    description: ""
+    },
+    {
+    code: "",
+    description: ""
+    },
+    {
+    code: "",
+    description: ""
+    },
+    {
+    code: "",
+    description: ""
+    },
+    {
+    code: "",
+    description: "
+    
+    },
+    {
+    code: "",
+    description: "
+    
+    },
+    {
+    code: "",
+    description: "
+    
+    },
+    {
+    code: "",
+    description: "
+    
+    },
+    {
+    code: "",
+    description: "
+    
+    }
+    ]
+    },
+    {
+    property: "tenure",
+    parentComponent: "Property",
+    listValues: [
+    {
+    code: "freehold",
+    description: "FreeHold"
+    },
+    {
+    code: "leasehold",
+    description: "LeaseHold"
+    },
+    {
+    code: "condo",
+    description: "Condo"
+    }
+    ]
+    },
+    {
+    property: "salution",
+    parentComponent: "Applicant",
+    listValues: [
+    {
+    code: "mr",
+    description: "Mr"
+    },
+    {
+    code: "ms",
+    description: "Ms"
+    },
+    {
+    code: "mrs",
+    description: "Mrs"
+    },
+    {
+    code: "miss",
+    description: "Miss"
+    },
+    {
+    code: "dr",
+    description: "Dr"
+    },
+    {
+    code: "rev",
+    description: "Rev"
+    },
+    {
+    code: "judge",
+    description: "Judge"
+    },
+    {
+    code: "engr",
+    description: "Engr"
+    },
+    {
+    code: "prof",
+    description: "Prof"
+    }
+    ]
+    },
+    {
+    property: "sex",
+    parentComponent: "Applicant",
+    listValues: [
+    {
+    code: "m",
+    description: "M"
+    },
+    {
+    code: "f",
+    description: "F"
+    }
+    ]
+    },
+    {
+    property: "incomeType",
+    parentComponent: "Employer",
+    listValues: [
+    {
+    code: "civilservant",
+    description: "Civil Servant"
+    },
+    {
+    code: "selfemployed",
+    description: "Self-Employed"
+    },
+    {
+    code: "salary",
+    description: "Salary"
+    }
+    ]
+    },
+    {
+    property: "incomePeriod",
+    parentComponent: "Employer",
+    listValues: [
+    {
+    code: "Annual",
+    description: "Annual"
+    },
+    {
+    code: "Semi-Annual",
+    description: "Semi-annual"
+    },
+    {
+    code: "Quarterly",
+    description: "Quarterly"
+    },
+    {
+    code: "Monthly",
+    description: "Monthly"
+    },
+    {
+    code: "Semi-Monthly",
+    description: "Semi-monthly"
+    },
+    {
+    code: "Bi-Weekly",
+    description: "Bi-weekly"
+    },
+    {
+    code: "Weekly",
+    description: "Weekly"
+    }
+    ]
+    },
+    {
+    property: "status",
+    parentComponent: "Employer",
+    listValues: [
+    {
+    code: "current",
+    description: "Current"
+    },
+    {
+    code: "previous",
+    description: "Previous"
+    }
+    ]
+    },
+    {
+    property: "type",
+    parentComponent: "Employer",
+    listValues: [
+    {
+    code: "fulltime",
+    description: "Permanent full time"
+    },
+    {
+    code: "parttime",
+    description: "Permanent part time"
+    },
+    {
+    code: "seasonal",
+    description: "Permanent - Seasonal"
+    },
+    {
+    code: "tempfulltime",
+    description: "Temporary full time"
+    },
+    {
+    code: "tempparttime",
+    description: "Temporary part time"
+    },
+    {
+    code: "tempseasonal",
+    description: "Temporary - Seasonal"
+    }
+    ]
+    },
+    {
+    property: "occupation",
+    parentComponent: "Employer",
+    listValues: [
+    {
+    code: "other",
+    description: "Other"
+    },
+    {
+    code: "management",
+    description: "Management"
+    },
+    {
+    code: "clerical",
+    description: "Clerical"
+    },
+    {
+    code: "trades",
+    description: "Labour/Tradesperson"
+    },
+    {
+    code: "retired",
+    description: "Retired"
+    },
+    {
+    code: "profess",
+    description: "Professional"
+    },
+    {
+    code: "civil",
+    description: "Civil Servant"
+    },
+    {
+    code: "self",
+    description: "Self-Employed"
+    }
+    ]
+    },
+    {
+    property: "otherIncomePeriod",
+    parentComponent: "OtherIncome",
+    listValues: [
+    {
+    code: "Annual",
+    description: "Annual"
+    },
+    {
+    code: "Semi-Annual",
+    description: "Semi-annual"
+    },
+    {
+    code: "Quarterly",
+    description: "Quarterly"
+    },
+    {
+    code: "Monthly",
+    description: "Monthly"
+    },
+    {
+    code: "Semi-Monthly",
+    description: "Semi-monthly"
+    },
+    {
+    code: "Bi-Weekly",
+    description: "Bi-weekly"
+    },
+    {
+    code: "Weekly",
+    description: "Weekly"
+    }
+    ]
+    },
+    {
+    property: "otherIncomeType",
+    parentComponent: "OtherIncome",
+    listValues: [
+    {
+    code: "salary",
+    description: "Salary"
+    },
+    {
+    code: "investment",
+    description: "Investment"
+    },
+    {
+    code: "support",
+    description: "Support"
+    },
+    {
+    code: "alimony",
+    description: "Alimony"
+    },
+    {
+    code: "otherincome",
+    description: "Other Income"
+    },
+    {
+    code: "carallowance",
+    description: "Car Allowance"
+    },
+    {
+    code: "pension",
+    description: "Pension"
+    }
+    ]
+    },
+    {
+    property: "assetType",
+    parentComponent: "Asset",
+    listValues: [
+    {
+    code: "savings",
+    description: "Savings"
+    },
+    {
+    code: "pencom",
+    description: "PENCOM"
+    },
+    {
+    code: "rsa",
+    description: "RSA"
+    },
+    {
+    code: "gift",
+    description: "Gift"
+    },
+    {
+    code: "vehicle",
+    description: "Vehicle"
+    },
+    {
+    code: "stocksbondsmutual",
+    description: "Stocks/Bonds/Mutual"
+    },
+    {
+    code: "other",
+    description: "Other"
+    },
+    {
+    code: "householdgoods",
+    description: "Household Goods"
+    },
+    {
+    code: "lifeinsur",
+    description: "Life Insurance"
+    },
+    {
+    code: "depositonpurch",
+    description: "Deposit on Purchase"
+    },
+    {
+    code: "mortloancoll",
+    description: "Mortgage Loan Collateral"
+    }
+    ]
+    },
+    {
+    property: "liabilityType",
+    parentComponent: "Liability",
+    listValues: [
+    {
+    code: "Agricultur",
+    description: "Agriculture Loan"
+    },
+    {
+    code: "AssetAcquisi",
+    description: "Asset Acquisition Loan"
+    },
+    {
+    code: "AutoLoan",
+    description: "Auto Loan"
+    },
+    {
+    code: "BaiSalam",
+    description: "Bai Salam Capital Finance"
+    },
+    {
+    code: "BankersAcc",
+    description: "Bankers Acceptance"
+    },
+    {
+    code: "Bonds",
+    description: "Bonds & Guarantees"
+    },
+    {
+    code: "Commercial",
+    description: "Commercial Papers"
+    },
+    {
+    code: "Consumption",
+    description: "Consumption Loan"
+    },
+    {
+    code: "ConsumerDurable",
+    description: "Consumer Durable Loans"
+    },
+    {
+    code: "CreditCard",
+    description: "Credit Card"
+    },
+    {
+    code: "DrawingsAgainst",
+    description: "Drawings Against Uncleared Effects"
+    },
+    {
+    code: "FastMoving",
+    description: "Fast Moving Consumer Goods"
+    },
+    {
+    code: "HomeLoan",
+    description: "Home Loan"
+    },
+    {
+    code: "HousingLoan",
+    description: "Housing Loan"
+    },
+    {
+    code: "IjarahAsset",
+    description: "Ijarah Asset Finance"
+    },
+    {
+    code: "IstisnaProject",
+    description: "Istisna Project Finance"
+    },
+    {
+    code: "Least",
+    description: null
+    },
+    {
+    code: "LetterofCredit",
+    description: "Letter of Credit "
+    },
+    {
+    code: "Manufacturing",
+    description: "Manufacturing Loan"
+    },
+    {
+    code: "MortgageLoan",
+    description: "Mortgage Loan"
+    },
+    {
+    code: "Mudarabah",
+    description: "Mudarabah Bank Finance"
+    },
+    {
+    code: "MultipurposeLoan",
+    description: "Multipurpose Loan"
+    },
+    {
+    code: "MurabahaBank",
+    description: "Murabaha Bank Advance"
+    },
+    {
+    code: "MusharakahPart",
+    description: "Musharakah Part Finance"
+    },
+    {
+    code: "Overdraft",
+    description: "Overdraft"
+    },
+    {
+    code: "PersonalLoan",
+    description: "Personal Loan"
+    },
+    {
+    code: "ServicLoan",
+    description: null
+    },
+    {
+    code: "SharePurchaseLoan",
+    description: "Share Purchase Loan"
+    },
+    {
+    code: "Sukuk",
+    description: "Sukuk"
+    },
+    {
+    code: "TermLoan",
+    description: "Term Loan"
+    },
+    {
+    code: "TimeLoan",
+    description: "Time Loan"
+    },
+    {
+    code: "Trade",
+    description: "Trade / Commercial Loan"
+    },
+    {
+    code: "RevenueLoan",
+    description: "Revenue Loan"
+    },
+    {
+    code: "Warehousing",
+    description: "Warehousing Facility"
+    },
+    {
+    code: "Others",
+    description: "Others"
+    }
+    ]
+    },
+    {
+    property: "type",
+    parentComponent: "Property",
+    listValues: [
+    {
+    code: "bungfullydetached",
+    description: "Bungalow Fully Developed"
+    },
+    {
+    code: "bungsemidetached",
+    description: "Bungalow Semi-Developed"
+    },
+    {
+    code: "bungmultiunit",
+    description: "Bungalow Multi-Unit"
+    },
+    {
+    code: "singfamdet",
+    description: "Single Family Detached"
+    },
+    {
+    code: "singfamsemidet",
+    description: "Single Family Semi-Detached"
+    },
+    {
+    code: "singfamunitindup",
+    description: "Single Family Unit in Duplex/Triplex"
+    },
+    {
+    code: "singfamunitinrow",
+    description: "Single Family Unit in Row/Town House"
+    },
+    {
+    code: "unitinbuild",
+    description: "Unit in Apartment Building"
+    },
+    {
+    code: "duplfully",
+    description: "Duplex Fully Detached"
+    },
+    {
+    code: "duplsemi",
+    description: "Duplex Semi-Detached"
+    },
+    {
+    code: "duplmulti",
+    description: "Duplex Multi-Unit"
+    },
+    {
+    code: "trifully",
+    description: "Triplex Fully Detached"
+    },
+    {
+    code: "trisemi",
+    description: "Triplex Semi-Detached"
+    },
+    {
+    code: "trimulti",
+    description: "Triplex Multi-Unit"
+    },
+    {
+    code: "blflstud",
+    description: "Block of Flats Studio"
+    },
+    {
+    code: "blflone",
+    description: "Block of Flats One Bedroom"
+    },
+    {
+    code: "blfltwo",
+    description: "Block of Flats Two Bedrooms"
+    },
+    {
+    code: "blflthr",
+    description: "Block of Flats Three Bedrooms"
+    },
+    {
+    code: "blflfou",
+    description: "Block of Flats Four Bedrooms"
+    }
+    ]
+    },
+    {
+    property: "tenure",
+    parentComponent: "Property",
+    listValues: [
+    {
+    code: "freehold",
+    description: "FreeHold"
+    },
+    {
+    code: "leasehold",
+    description: "LeaseHold"
+    },
+    {
+    code: "condo",
+    description: "Condo"
+    }
+    ]
+    },
+    {
+    property: "countryCode",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "ng",
+    description: "Nigeria "
+    }
+    ]
+    },
+    
+
+
+    
+    {
+    property: "Abia",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Aba North",
+    description: "Aba North"
+    },
+    {
+    code: "Aba South",
+    description: "Aba South"
+    },
+    {
+    code: "Arochukwu",
+    description: "Arochukwu"
+    },
+    {
+    code: "Bende",
+    description: "Bende"
+    },
+    {
+    code: "Ikwuano",
+    description: "Ikwuano"
+    },
+    {
+    code: "Isiala-Ngwa North",
+    description: "Isiala-Ngwa North"
+    },
+    {
+    code: "Isiala-Ngwa South",
+    description: "Isiala-Ngwa South"
+    },
+    {
+    code: "Isuikwato",
+    description: "Isuikwato"
+    },
+    {
+    code: "Obi Nwa",
+    description: "Obi Nwa"
+    },
+    {
+    code: "Ohafia",
+    description: "Ohafia"
+    },
+    {
+    code: "Osisioma",
+    description: "Osisioma"
+    },
+    {
+    code: "Ngwa",
+    description: "Ngwa"
+    },
+    {
+    code: "Ugwunagbo",
+    description: "Ugwunagbo"
+    },
+    {
+    code: "Ukwa East",
+    description: "Ukwa East"
+    },
+    {
+    code: "Ukwa West",
+    description: "Ukwa West"
+    },
+    {
+    code: "Umuahia North",
+    description: "Umuahia North"
+    },
+    {
+    code: "Umuahia South",
+    description: "Umuahia South"
+    },
+    {
+    code: "Umu-Neochi",
+    description: "Umu-Neochi"
+    }
+    ]
+    },
+    {
+    property: "Abuja",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Gwagwalada",
+    description: "Gwagwalada"
+    },
+    {
+    code: "Kuje",
+    description: "Kuje"
+    },
+    {
+    code: "Abaji",
+    description: "Abaji"
+    },
+    {
+    code: "Abuja Municipal",
+    description: "Abuja Municipal"
+    },
+    {
+    code: "Bwari",
+    description: "Bwari"
+    },
+    {
+    code: "Kwali",
+    description: "Kwali"
+    }
+    ]
+    },
+    {
+    property: "Adamawa",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Demsa",
+    description: "Demsa"
+    },
+    {
+    code: "Fufore",
+    description: "Fufore"
+    },
+    {
+    code: "Ganaye",
+    description: "Ganaye"
+    },
+    {
+    code: "Gireri",
+    description: "Gireri"
+    },
+    {
+    code: "Gombi",
+    description: "Gombi"
+    },
+    {
+    code: "Guyuk",
+    description: "Guyuk"
+    },
+    {
+    code: "Hong",
+    description: "Hong"
+    },
+    {
+    code: "Jada",
+    description: "Jada"
+    },
+    {
+    code: "Lamurde",
+    description: "Lamurde"
+    },
+    {
+    code: "Madagali",
+    description: "Madagali"
+    },
+    {
+    code: "Maiha ",
+    description: "Maiha "
+    },
+    {
+    code: "Mayo-Belwa",
+    description: "Mayo-Belwa"
+    },
+    {
+    code: "Michika",
+    description: "Michika"
+    },
+    {
+    code: "Mubi North",
+    description: "Mubi North"
+    },
+    {
+    code: "Mubi South",
+    description: "Mubi South"
+    },
+    {
+    code: "Numan",
+    description: "Numan"
+    },
+    {
+    code: "Shelleng",
+    description: "Shelleng"
+    },
+    {
+    code: "Song",
+    description: "Song"
+    },
+    {
+    code: "Toungo",
+    description: "Toungo"
+    },
+    {
+    code: "Yola North",
+    description: "Yola North"
+    },
+    {
+    code: "Yola South",
+    description: "Yola South"
+    }
+    ]
+    },
+    {
+    property: "AkwaIbom",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Abak",
+    description: "Abak"
+    },
+    {
+    code: "Eastern Obolo",
+    description: "Eastern Obolo"
+    },
+    {
+    code: "Eket",
+    description: "Eket"
+    },
+    {
+    code: "Esit Eket",
+    description: "Esit Eket"
+    },
+    {
+    code: "Essien Udim",
+    description: "Essien Udim"
+    },
+    {
+    code: "Etim Ekpo",
+    description: "Etim Ekpo"
+    },
+    {
+    code: "Etinan",
+    description: "Etinan"
+    },
+    {
+    code: "Ibeno",
+    description: "Ibeno"
+    },
+    {
+    code: "Ibesikpo Asutan",
+    description: "Ibesikpo Asutan"
+    },
+    {
+    code: "Ibiono Ibom",
+    description: "Ibiono Ibom"
+    },
+    {
+    code: "Ika",
+    description: "Ika"
+    },
+    {
+    code: "Ikono",
+    description: "Ikono"
+    },
+    {
+    code: "Ikot Abasi",
+    description: "Ikot Abasi"
+    },
+    {
+    code: "Ikot Ekpene",
+    description: "Ikot Ekpene"
+    },
+    {
+    code: "Ini",
+    description: "Ini"
+    },
+    {
+    code: "Itu",
+    description: "Itu"
+    },
+    {
+    code: "Mbo",
+    description: "Mbo"
+    },
+    {
+    code: "Mkpat Enin",
+    description: "Mkpat Enin"
+    },
+    {
+    code: "Nsit Atai",
+    description: "Nsit Atai"
+    },
+    {
+    code: "Nsit Ibom",
+    description: "Nsit Ibom"
+    },
+    {
+    code: "Nsit Ubium",
+    description: "Nsit Ubium"
+    },
+    {
+    code: "Obot Akara",
+    description: "Obot Akara"
+    },
+    {
+    code: "Okobo",
+    description: "Okobo"
+    },
+    {
+    code: "Onna",
+    description: "Onna"
+    },
+    {
+    code: "Oron ",
+    description: "Oron "
+    },
+    {
+    code: "Oruk Anam",
+    description: "Oruk Anam"
+    },
+    {
+    code: "Udung Uko",
+    description: "Udung Uko"
+    },
+    {
+    code: "Ukanafun",
+    description: "Ukanafun"
+    },
+    {
+    code: "Uruan",
+    description: "Uruan"
+    },
+    {
+    code: "Urue-Offong/Oruko",
+    description: "Urue-Offong/Oruko"
+    },
+    {
+    code: "Uyo",
+    description: "Uyo"
+    }
+    ]
+    },
+    {
+    property: "Anambra",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Aguata",
+    description: "Aguata"
+    },
+    {
+    code: "Anambra East",
+    description: "Anambra East"
+    },
+    {
+    code: "Anambra West",
+    description: "Anambra West"
+    },
+    {
+    code: "Anaocha",
+    description: "Anaocha"
+    },
+    {
+    code: "Awka North",
+    description: "Awka North"
+    },
+    {
+    code: "Awka South",
+    description: "Awka South"
+    },
+    {
+    code: "Ayamelum",
+    description: "Ayamelum"
+    },
+    {
+    code: "Dunukofia",
+    description: "Dunukofia"
+    },
+    {
+    code: "Ekwusigo",
+    description: "Ekwusigo"
+    },
+    {
+    code: "Idemili North",
+    description: "Idemili North"
+    },
+    {
+    code: "Idemili south",
+    description: "Idemili south"
+    },
+    {
+    code: "Ihiala",
+    description: "Ihiala"
+    },
+    {
+    code: "Njikoka",
+    description: "Njikoka"
+    },
+    {
+    code: "Nnewi North",
+    description: "Nnewi North"
+    },
+    {
+    code: "Nnewi South",
+    description: "Nnewi South"
+    },
+    {
+    code: "Ogbaru",
+    description: "Ogbaru"
+    },
+    {
+    code: "Onitsha North",
+    description: "Onitsha North"
+    },
+    {
+    code: "Onitsha South",
+    description: "Onitsha South"
+    },
+    {
+    code: "Orumba North",
+    description: "Orumba North"
+    },
+    {
+    code: "Orumba South",
+    description: "Orumba South"
+    },
+    {
+    code: "Oyi",
+    description: "Oyi"
+    }
+    ]
+    },
+    {
+    property: "Bauchi",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Alkaleri",
+    description: "Alkaleri"
+    },
+    {
+    code: "Bauchi",
+    description: "Bauchi"
+    },
+    {
+    code: "Bogoro",
+    description: "Bogoro"
+    },
+    {
+    code: "Damban",
+    description: "Damban"
+    },
+    {
+    code: "Darazo",
+    description: "Darazo"
+    },
+    {
+    code: "Dass",
+    description: "Dass"
+    },
+    {
+    code: "Ganjuwa",
+    description: "Ganjuwa"
+    },
+    {
+    code: "Giade",
+    description: "Giade"
+    },
+    {
+    code: "Itas/Gadau",
+    description: "Itas/Gadau"
+    },
+    {
+    code: "Jama'are",
+    description: "Jama'are"
+    },
+    {
+    code: "Katagum",
+    description: "Katagum"
+    },
+    {
+    code: "Kirfi",
+    description: "Kirfi"
+    },
+    {
+    code: "Misau",
+    description: "Misau"
+    },
+    {
+    code: "Ningi",
+    description: "Ningi"
+    },
+    {
+    code: "Shira",
+    description: "Shira"
+    },
+    {
+    code: "Tafawa-Balewa",
+    description: "Tafawa-Balewa"
+    },
+    {
+    code: "Toro",
+    description: "Toro"
+    },
+    {
+    code: "Warji",
+    description: "Warji"
+    },
+    {
+    code: "Zaki",
+    description: "Zaki"
+    }
+    ]
+    },
+    {
+    property: "Bayelsa",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Brass",
+    description: "Brass"
+    },
+    {
+    code: "Ekeremor",
+    description: "Ekeremor"
+    },
+    {
+    code: "Kolokuma/Opokuma",
+    description: "Kolokuma/Opokuma"
+    },
+    {
+    code: "Nembe",
+    description: "Nembe"
+    },
+    {
+    code: "Ogbia",
+    description: "Ogbia"
+    },
+    {
+    code: "Sagbama",
+    description: "Sagbama"
+    },
+    {
+    code: "Southern Jaw",
+    description: "Southern Jaw"
+    },
+    {
+    code: "Yenegoa",
+    description: "Yenegoa"
+    }
+    ]
+    },
+    {
+    property: "Benue",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Ado",
+    description: "Ado"
+    },
+    {
+    code: "Agatu",
+    description: "Agatu"
+    },
+    {
+    code: "Apa",
+    description: "Apa"
+    },
+    {
+    code: "Buruku",
+    description: "Buruku"
+    },
+    {
+    code: "Gboko",
+    description: "Gboko"
+    },
+    {
+    code: "Guma",
+    description: "Guma"
+    },
+    {
+    code: "Gwer East",
+    description: "Gwer East"
+    },
+    {
+    code: "Gwer West",
+    description: "Gwer West"
+    },
+    {
+    code: "Katsina-Ala",
+    description: "Katsina-Ala"
+    },
+    {
+    code: "Konshisha",
+    description: "Konshisha"
+    },
+    {
+    code: "Kwande",
+    description: "Kwande"
+    },
+    {
+    code: "Logo",
+    description: "Logo"
+    },
+    {
+    code: "Makurdi",
+    description: "Makurdi"
+    },
+    {
+    code: "Obi",
+    description: "Obi"
+    },
+    {
+    code: "Ogbadibo",
+    description: "Ogbadibo"
+    },
+    {
+    code: "Oju",
+    description: "Oju"
+    },
+    {
+    code: "Okpokwu",
+    description: "Okpokwu"
+    },
+    {
+    code: "Ohimini",
+    description: "Ohimini"
+    },
+    {
+    code: "Oturkpo",
+    description: "Oturkpo"
+    },
+    {
+    code: "Tarka",
+    description: "Tarka"
+    },
+    {
+    code: "Ukum",
+    description: "Ukum"
+    },
+    {
+    code: "Ushongo",
+    description: "Ushongo"
+    },
+    {
+    code: "Vandeikya",
+    description: "Vandeikya"
+    }
+    ]
+    },
+    {
+    property: "Borno",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Abadam",
+    description: "Abadam"
+    },
+    {
+    code: "Askira/Uba",
+    description: "Askira/Uba"
+    },
+    {
+    code: "Bama",
+    description: "Bama"
+    },
+    {
+    code: "Bayo",
+    description: "Bayo"
+    },
+    {
+    code: "Biu",
+    description: "Biu"
+    },
+    {
+    code: "Chibok",
+    description: "Chibok"
+    },
+    {
+    code: "Damboa",
+    description: "Damboa"
+    },
+    {
+    code: "Dikwa",
+    description: "Dikwa"
+    },
+    {
+    code: "Gubio",
+    description: "Gubio"
+    },
+    {
+    code: "Guzamala",
+    description: "Guzamala"
+    },
+    {
+    code: "Gwoza",
+    description: "Gwoza"
+    },
+    {
+    code: "Hawul",
+    description: "Hawul"
+    },
+    {
+    code: "Jere",
+    description: "Jere"
+    },
+    {
+    code: "Kaga",
+    description: "Kaga"
+    },
+    {
+    code: "Kala/Balge",
+    description: "Kala/Balge"
+    },
+    {
+    code: "Konduga",
+    description: "Konduga"
+    },
+    {
+    code: "Kukawa",
+    description: "Kukawa"
+    },
+    {
+    code: "Kwaya Kusar",
+    description: "Kwaya Kusar"
+    },
+    {
+    code: "Mafa",
+    description: "Mafa"
+    },
+    {
+    code: "Magumeri",
+    description: "Magumeri"
+    },
+    {
+    code: "Maiduguri",
+    description: "Maiduguri"
+    },
+    {
+    code: "Marte",
+    description: "Marte"
+    },
+    {
+    code: "Mobbar",
+    description: "Mobbar"
+    },
+    {
+    code: "Monguno",
+    description: "Monguno"
+    },
+    {
+    code: "Ngala",
+    description: "Ngala"
+    },
+    {
+    code: "Nganzai",
+    description: "Nganzai"
+    },
+    {
+    code: "Shani",
+    description: "Shani"
+    }
+    ]
+    },
+    {
+    property: "CrossRiver",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Akpabuyo",
+    description: "Akpabuyo"
+    },
+    {
+    code: "Odukpani",
+    description: "Odukpani"
+    },
+    {
+    code: "Akamkpa",
+    description: "Akamkpa"
+    },
+    {
+    code: "Biase",
+    description: "Biase"
+    },
+    {
+    code: "Abi",
+    description: "Abi"
+    },
+    {
+    code: "Ikom",
+    description: "Ikom"
+    },
+    {
+    code: "Yarkur",
+    description: "Yarkur"
+    },
+    {
+    code: "Odubra",
+    description: "Odubra"
+    },
+    {
+    code: "Boki",
+    description: "Boki"
+    },
+    {
+    code: "Ogoja",
+    description: "Ogoja"
+    },
+    {
+    code: "Yala",
+    description: "Yala"
+    },
+    {
+    code: "Obanliku",
+    description: "Obanliku"
+    },
+    {
+    code: "Obudu",
+    description: "Obudu"
+    },
+    {
+    code: "Calabar South",
+    description: "Calabar South"
+    },
+    {
+    code: "Etung",
+    description: "Etung"
+    },
+    {
+    code: "Bekwara",
+    description: "Bekwara"
+    },
+    {
+    code: "Bakassi",
+    description: "Bakassi"
+    },
+    {
+    code: "Calabar Municipality",
+    description: "Calabar Municipality"
+    }
+    ]
+    },
+    {
+    property: "Delta",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Oshimili",
+    description: "Oshimili"
+    },
+    {
+    code: "Aniocha",
+    description: "Aniocha"
+    },
+    {
+    code: "Aniocha South",
+    description: "Aniocha South"
+    },
+    {
+    code: "Ika South",
+    description: "Ika South"
+    },
+    {
+    code: "Ika North-East",
+    description: "Ika North-East"
+    },
+    {
+    code: "Ndokwa West",
+    description: "Ndokwa West"
+    },
+    {
+    code: "Ndokwa East",
+    description: "Ndokwa East"
+    },
+    {
+    code: "Isoko south",
+    description: "Isoko south"
+    },
+    {
+    code: "Isoko North",
+    description: "Isoko North"
+    },
+    {
+    code: "Bomadi",
+    description: "Bomadi"
+    },
+    {
+    code: "Burutu",
+    description: "Burutu"
+    },
+    {
+    code: "Ughelli South",
+    description: "Ughelli South"
+    },
+    {
+    code: "Ughelli North",
+    description: "Ughelli North"
+    },
+    {
+    code: "Ethiope West",
+    description: "Ethiope West"
+    },
+    {
+    code: "Ethiope East",
+    description: "Ethiope East"
+    },
+    {
+    code: "Sapele",
+    description: "Sapele"
+    },
+    {
+    code: "Okpe",
+    description: "Okpe"
+    },
+    {
+    code: "Warri North",
+    description: "Warri North"
+    },
+    {
+    code: "Warri South",
+    description: "Warri South"
+    },
+    {
+    code: "Uvwie",
+    description: "Uvwie"
+    },
+    {
+    code: "Udu",
+    description: "Udu"
+    },
+    {
+    code: "Warri Central",
+    description: "Warri Central"
+    },
+    {
+    code: "Ukwani",
+    description: "Ukwani"
+    },
+    {
+    code: "Oshimili North",
+    description: "Oshimili North"
+    },
+    {
+    code: "Patani",
+    description: "Patani"
+    }
+    ]
+    },
+    {
+    property: "Ebonyi",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Afikpo South",
+    description: "Afikpo South"
+    },
+    {
+    code: "Afikpo North",
+    description: "Afikpo North"
+    },
+    {
+    code: "Onicha",
+    description: "Onicha"
+    },
+    {
+    code: "Ohaozara",
+    description: "Ohaozara"
+    },
+    {
+    code: "Abakaliki",
+    description: "Abakaliki"
+    },
+    {
+    code: "Ishielu",
+    description: "Ishielu"
+    },
+    {
+    code: "lkwo",
+    description: "lkwo"
+    },
+    {
+    code: "Ezza",
+    description: "Ezza"
+    },
+    {
+    code: "Ezza South",
+    description: "Ezza South"
+    },
+    {
+    code: "Ohaukwu",
+    description: "Ohaukwu"
+    },
+    {
+    code: "Ebonyi",
+    description: "Ebonyi"
+    },
+    {
+    code: "Ivo",
+    description: "Ivo"
+    }
+    ]
+    },
+    {
+    property: "Edo",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Esan North-East",
+    description: "Esan North-East"
+    },
+    {
+    code: "Esan Central",
+    description: "Esan Central"
+    },
+    {
+    code: "Esan West",
+    description: "Esan West"
+    },
+    {
+    code: "Egor",
+    description: "Egor"
+    },
+    {
+    code: "Ukpoba",
+    description: "Ukpoba"
+    },
+    {
+    code: "Central",
+    description: "Central"
+    },
+    {
+    code: "Etsako Central",
+    description: "Etsako Central"
+    },
+    {
+    code: "Igueben",
+    description: "Igueben"
+    },
+    {
+    code: "Oredo",
+    description: "Oredo"
+    },
+    {
+    code: "Ovia SouthWest",
+    description: "Ovia SouthWest"
+    },
+    {
+    code: "Ovia South-East",
+    description: "Ovia South-East"
+    },
+    {
+    code: "Orhionwon",
+    description: "Orhionwon"
+    },
+    {
+    code: "Uhunmwonde",
+    description: "Uhunmwonde"
+    },
+    {
+    code: "Etsako East ",
+    description: "Etsako East "
+    },
+    {
+    code: "Esan South-East",
+    description: "Esan South-East"
+    }
+    ]
+    },
+    {
+    property: "Ekiti",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Ado",
+    description: "Ado"
+    },
+    {
+    code: "Ekiti-East",
+    description: "Ekiti-East"
+    },
+    {
+    code: "Ekiti-West ",
+    description: "Ekiti-West "
+    },
+    {
+    code: "Emure/Ise/Orun",
+    description: "Emure/Ise/Orun"
+    },
+    {
+    code: "Ekiti South-West",
+    description: "Ekiti South-West"
+    },
+    {
+    code: "Ikare",
+    description: "Ikare"
+    },
+    {
+    code: "Irepodun",
+    description: "Irepodun"
+    },
+    {
+    code: "Ijero, ",
+    description: "Ijero, "
+    },
+    {
+    code: "Ido/Osi",
+    description: "Ido/Osi"
+    },
+    {
+    code: "Oye",
+    description: "Oye"
+    },
+    {
+    code: "Ikole",
+    description: "Ikole"
+    },
+    {
+    code: "Moba",
+    description: "Moba"
+    },
+    {
+    code: "Gbonyin",
+    description: "Gbonyin"
+    },
+    {
+    code: "Efon",
+    description: "Efon"
+    },
+    {
+    code: "Ise/Orun ",
+    description: "Ise/Orun "
+    },
+    {
+    code: "Ilejemeje.",
+    description: "Ilejemeje."
+    }
+    ]
+    },
+    {
+    property: "Enugu",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Enugu South",
+    description: "Enugu South"
+    },
+    {
+    code: "Igbo-Eze South",
+    description: "Igbo-Eze South"
+    },
+    {
+    code: "Enugu North",
+    description: "Enugu North"
+    },
+    {
+    code: "Nkanu",
+    description: "Nkanu"
+    },
+    {
+    code: "Udi Agwu",
+    description: "Udi Agwu"
+    },
+    {
+    code: "Oji-River",
+    description: "Oji-River"
+    },
+    {
+    code: "Ezeagu",
+    description: "Ezeagu"
+    },
+    {
+    code: "IgboEze North",
+    description: "IgboEze North"
+    },
+    {
+    code: "Isi-Uzo",
+    description: "Isi-Uzo"
+    },
+    {
+    code: "Nsukka",
+    description: "Nsukka"
+    },
+    {
+    code: "Igbo-Ekiti",
+    description: "Igbo-Ekiti"
+    },
+    {
+    code: "Uzo-Uwani",
+    description: "Uzo-Uwani"
+    },
+    {
+    code: "Enugu Eas",
+    description: "Enugu Eas"
+    },
+    {
+    code: "Aninri",
+    description: "Aninri"
+    },
+    {
+    code: "Nkanu East",
+    description: "Nkanu East"
+    },
+    {
+    code: "Udenu.",
+    description: "Udenu."
+    }
+    ]
+    },
+    {
+    property: "Gombe",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Akko",
+    description: "Akko"
+    },
+    {
+    code: "Balanga",
+    description: "Balanga"
+    },
+    {
+    code: "Billiri",
+    description: "Billiri"
+    },
+    {
+    code: "Dukku",
+    description: "Dukku"
+    },
+    {
+    code: "Kaltungo",
+    description: "Kaltungo"
+    },
+    {
+    code: "Kwami",
+    description: "Kwami"
+    },
+    {
+    code: "Shomgom",
+    description: "Shomgom"
+    },
+    {
+    code: "Funakaye",
+    description: "Funakaye"
+    },
+    {
+    code: "Gombe",
+    description: "Gombe"
+    },
+    {
+    code: "Nafada/Bajoga ",
+    description: "Nafada/Bajoga "
+    },
+    {
+    code: "Yamaltu/Delta.",
+    description: "Yamaltu/Delta."
+    }
+    ]
+    },
+    {
+    property: "Imo",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Aboh-Mbaise",
+    description: "Aboh-Mbaise"
+    },
+    {
+    code: "Ahiazu-Mbaise",
+    description: "Ahiazu-Mbaise"
+    },
+    {
+    code: "Ehime-Mbano",
+    description: "Ehime-Mbano"
+    },
+    {
+    code: "Ezinihitte",
+    description: "Ezinihitte"
+    },
+    {
+    code: "Ideato North",
+    description: "Ideato North"
+    },
+    {
+    code: "Ideato South",
+    description: "Ideato South"
+    },
+    {
+    code: "Ihitte/Uboma",
+    description: "Ihitte/Uboma"
+    },
+    {
+    code: "Ikeduru",
+    description: "Ikeduru"
+    },
+    {
+    code: "Isiala Mbano",
+    description: "Isiala Mbano"
+    },
+    {
+    code: "Isu",
+    description: "Isu"
+    },
+    {
+    code: "Mbaitoli",
+    description: "Mbaitoli"
+    },
+    {
+    code: "Mbaitoli",
+    description: "Mbaitoli"
+    },
+    {
+    code: "Ngor-Okpala",
+    description: "Ngor-Okpala"
+    },
+    {
+    code: "Njaba",
+    description: "Njaba"
+    },
+    {
+    code: "Nwangele",
+    description: "Nwangele"
+    },
+    {
+    code: "Nkwerre",
+    description: "Nkwerre"
+    },
+    {
+    code: "Obowo",
+    description: "Obowo"
+    },
+    {
+    code: "Oguta",
+    description: "Oguta"
+    },
+    {
+    code: "Ohaji/Egbema",
+    description: "Ohaji/Egbema"
+    },
+    {
+    code: "Okigwe",
+    description: "Okigwe"
+    },
+    {
+    code: "Orlu",
+    description: "Orlu"
+    },
+    {
+    code: "Orsu",
+    description: "Orsu"
+    },
+    {
+    code: "Oru East",
+    description: "Oru East"
+    },
+    {
+    code: "Oru West",
+    description: "Oru West"
+    },
+    {
+    code: "Owerri-Municipal",
+    description: "Owerri-Municipal"
+    },
+    {
+    code: "Owerri North",
+    description: "Owerri North"
+    },
+    {
+    code: "Owerri West",
+    description: "Owerri West"
+    }
+    ]
+    },
+    {
+    property: "Jigawa",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Auyo",
+    description: "Auyo"
+    },
+    {
+    code: "Babura",
+    description: "Babura"
+    },
+    {
+    code: "Birni Kudu",
+    description: "Birni Kudu"
+    },
+    {
+    code: "Biriniwa",
+    description: "Biriniwa"
+    },
+    {
+    code: "Buji",
+    description: "Buji"
+    },
+    {
+    code: "Dutse",
+    description: "Dutse"
+    },
+    {
+    code: "Gagarawa",
+    description: "Gagarawa"
+    },
+    {
+    code: "Garki",
+    description: "Garki"
+    },
+    {
+    code: "Gumel",
+    description: "Gumel"
+    },
+    {
+    code: "Guri",
+    description: "Guri"
+    },
+    {
+    code: "Gwaram",
+    description: "Gwaram"
+    },
+    {
+    code: "Gwiwa",
+    description: "Gwiwa"
+    },
+    {
+    code: "Hadejia",
+    description: "Hadejia"
+    },
+    {
+    code: "Jahun",
+    description: "Jahun"
+    },
+    {
+    code: "Kafin Hausa",
+    description: "Kafin Hausa"
+    },
+    {
+    code: "Kaugama Kazaure",
+    description: "Kaugama Kazaure"
+    },
+    {
+    code: "Kiri Kasamma",
+    description: "Kiri Kasamma"
+    },
+    {
+    code: "Kiyawa",
+    description: "Kiyawa"
+    },
+    {
+    code: "Maigatari",
+    description: "Maigatari"
+    },
+    {
+    code: "Malam Madori",
+    description: "Malam Madori"
+    },
+    {
+    code: "Miga",
+    description: "Miga"
+    },
+    {
+    code: "Ringim",
+    description: "Ringim"
+    },
+    {
+    code: "Roni",
+    description: "Roni"
+    },
+    {
+    code: "Sule-Tankarkar",
+    description: "Sule-Tankarkar"
+    },
+    {
+    code: "Taura ",
+    description: "Taura "
+    },
+    {
+    code: "Yankwashi",
+    description: "Yankwashi"
+    }
+    ]
+    },
+    {
+    property: "Kaduna",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Birni-Gwari",
+    description: "Birni-Gwari"
+    },
+    {
+    code: "Chikun",
+    description: "Chikun"
+    },
+    {
+    code: "Giwa",
+    description: "Giwa"
+    },
+    {
+    code: "Igabi",
+    description: "Igabi"
+    },
+    {
+    code: "Ikara",
+    description: "Ikara"
+    },
+    {
+    code: "jaba",
+    description: "jaba"
+    },
+    {
+    code: "Jema'a",
+    description: "Jema'a"
+    },
+    {
+    code: "Kachia",
+    description: "Kachia"
+    },
+    {
+    code: "Kaduna North",
+    description: "Kaduna North"
+    },
+    {
+    code: "Kaduna South",
+    description: "Kaduna South"
+    },
+    {
+    code: "Kagarko",
+    description: "Kagarko"
+    },
+    {
+    code: "Kajuru",
+    description: "Kajuru"
+    },
+    {
+    code: "Kaura",
+    description: "Kaura"
+    },
+    {
+    code: "Kauru",
+    description: "Kauru"
+    },
+    {
+    code: "Kubau",
+    description: "Kubau"
+    },
+    {
+    code: "Kudan",
+    description: "Kudan"
+    },
+    {
+    code: "Lere",
+    description: "Lere"
+    },
+    {
+    code: "Makarfi",
+    description: "Makarfi"
+    },
+    {
+    code: "Sabon-Gari",
+    description: "Sabon-Gari"
+    },
+    {
+    code: "Sanga",
+    description: "Sanga"
+    },
+    {
+    code: "Soba",
+    description: "Soba"
+    },
+    {
+    code: "Zango-Kataf",
+    description: "Zango-Kataf"
+    },
+    {
+    code: "Zaria",
+    description: "Zaria"
+    }
+    ]
+    },
+    {
+    property: "Kano",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Ajingi",
+    description: "Ajingi"
+    },
+    {
+    code: "Albasu",
+    description: "Albasu"
+    },
+    {
+    code: "Bagwai",
+    description: "Bagwai"
+    },
+    {
+    code: "Bebeji",
+    description: "Bebeji"
+    },
+    {
+    code: "Bichi",
+    description: "Bichi"
+    },
+    {
+    code: "Bunkure",
+    description: "Bunkure"
+    },
+    {
+    code: "Dala",
+    description: "Dala"
+    },
+    {
+    code: "Dambatta",
+    description: "Dambatta"
+    },
+    {
+    code: "Dawakin Kudu",
+    description: "Dawakin Kudu"
+    },
+    {
+    code: "Dawakin Tofa",
+    description: "Dawakin Tofa"
+    },
+    {
+    code: "Doguwa",
+    description: "Doguwa"
+    },
+    {
+    code: "Fagge",
+    description: "Fagge"
+    },
+    {
+    code: "Gabasawa",
+    description: "Gabasawa"
+    },
+    {
+    code: "Garko",
+    description: "Garko"
+    },
+    {
+    code: "Garum",
+    description: "Garum"
+    },
+    {
+    code: "Mallam",
+    description: "Mallam"
+    },
+    {
+    code: "Gaya",
+    description: "Gaya"
+    },
+    {
+    code: "Gezawa",
+    description: "Gezawa"
+    },
+    {
+    code: "Gwale",
+    description: "Gwale"
+    },
+    {
+    code: "Gwarzo",
+    description: "Gwarzo"
+    },
+    {
+    code: "Kabo",
+    description: "Kabo"
+    },
+    {
+    code: "Kano Municipal",
+    description: "Kano Municipal"
+    },
+    {
+    code: "Karaye",
+    description: "Karaye"
+    },
+    {
+    code: "Kibiya",
+    description: "Kibiya"
+    },
+    {
+    code: "Kiru",
+    description: "Kiru"
+    },
+    {
+    code: "kumbotso",
+    description: "kumbotso"
+    },
+    {
+    code: "Kunchi",
+    description: "Kunchi"
+    },
+    {
+    code: "Kura",
+    description: "Kura"
+    },
+    {
+    code: "Madobi",
+    description: "Madobi"
+    },
+    {
+    code: "Makoda",
+    description: "Makoda"
+    },
+    {
+    code: "Minjibir",
+    description: "Minjibir"
+    },
+    {
+    code: "Nasarawa",
+    description: "Nasarawa"
+    },
+    {
+    code: "Rano",
+    description: "Rano"
+    },
+    {
+    code: "Rimin Gado",
+    description: "Rimin Gado"
+    },
+    {
+    code: "Rogo",
+    description: "Rogo"
+    },
+    {
+    code: "Shanono",
+    description: "Shanono"
+    },
+    {
+    code: "Sumaila",
+    description: "Sumaila"
+    },
+    {
+    code: "Takali",
+    description: "Takali"
+    },
+    {
+    code: "Tarauni",
+    description: "Tarauni"
+    },
+    {
+    code: "Tofa",
+    description: "Tofa"
+    },
+    {
+    code: "Tsanyawa",
+    description: "Tsanyawa"
+    },
+    {
+    code: "Tudun Wada",
+    description: "Tudun Wada"
+    },
+    {
+    code: "Ungogo",
+    description: "Ungogo"
+    },
+    {
+    code: "Warawa",
+    description: "Warawa"
+    },
+    {
+    code: "Wudil",
+    description: "Wudil"
+    }
+    ]
+    },
+    {
+    property: "Katsina",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Bakori",
+    description: "Bakori"
+    },
+    {
+    code: "Batagarawa",
+    description: "Batagarawa"
+    },
+    {
+    code: "Batsari",
+    description: "Batsari"
+    },
+    {
+    code: "Baure",
+    description: "Baure"
+    },
+    {
+    code: "Bindawa",
+    description: "Bindawa"
+    },
+    {
+    code: "Charanchi",
+    description: "Charanchi"
+    },
+    {
+    code: "Dandume",
+    description: "Dandume"
+    },
+    {
+    code: "Danja",
+    description: "Danja"
+    },
+    {
+    code: "Dan Musa",
+    description: "Dan Musa"
+    },
+    {
+    code: "Daura",
+    description: "Daura"
+    },
+    {
+    code: "Dutsi",
+    description: "Dutsi"
+    },
+    {
+    code: "Dutsin-Ma",
+    description: "Dutsin-Ma"
+    },
+    {
+    code: "Faskari",
+    description: "Faskari"
+    },
+    {
+    code: "Funtua",
+    description: "Funtua"
+    },
+    {
+    code: "Ingawa",
+    description: "Ingawa"
+    },
+    {
+    code: "Jibia",
+    description: "Jibia"
+    },
+    {
+    code: "Kafur",
+    description: "Kafur"
+    },
+    {
+    code: "Kaita",
+    description: "Kaita"
+    },
+    {
+    code: "Kankara",
+    description: "Kankara"
+    },
+    {
+    code: "Kankia",
+    description: "Kankia"
+    },
+    {
+    code: "Katsina",
+    description: "Katsina"
+    },
+    {
+    code: "Kurfi",
+    description: "Kurfi"
+    },
+    {
+    code: "Kusada",
+    description: "Kusada"
+    },
+    {
+    code: "Mai'Adua",
+    description: "Mai'Adua"
+    },
+    {
+    code: "Malumfashi",
+    description: "Malumfashi"
+    },
+    {
+    code: "Mani",
+    description: "Mani"
+    },
+    {
+    code: "Mashi",
+    description: "Mashi"
+    },
+    {
+    code: "Matazuu",
+    description: "Matazuu"
+    },
+    {
+    code: "Musawa",
+    description: "Musawa"
+    },
+    {
+    code: "Rimi",
+    description: "Rimi"
+    },
+    {
+    code: "Sabuwa",
+    description: "Sabuwa"
+    },
+    {
+    code: "Safana",
+    description: "Safana"
+    },
+    {
+    code: "Sandamu",
+    description: "Sandamu"
+    },
+    {
+    code: "Zango",
+    description: "Zango"
+    }
+    ]
+    },
+    {
+    property: "Kebbi",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Aleiro",
+    description: "Aleiro"
+    },
+    {
+    code: "Arewa-Dandi",
+    description: "Arewa-Dandi"
+    },
+    {
+    code: "Argungu",
+    description: "Argungu"
+    },
+    {
+    code: "Augie",
+    description: "Augie"
+    },
+    {
+    code: "Bagudo",
+    description: "Bagudo"
+    },
+    {
+    code: "Birnin Kebbi",
+    description: "Birnin Kebbi"
+    },
+    {
+    code: "Bunza",
+    description: "Bunza"
+    },
+    {
+    code: "Dandi ",
+    description: "Dandi "
+    },
+    {
+    code: "Fakai",
+    description: "Fakai"
+    },
+    {
+    code: "Gwandu",
+    description: "Gwandu"
+    },
+    {
+    code: "Jega",
+    description: "Jega"
+    },
+    {
+    code: "Kalgo ",
+    description: "Kalgo "
+    },
+    {
+    code: "Koko/Besse",
+    description: "Koko/Besse"
+    },
+    {
+    code: "Maiyama",
+    description: "Maiyama"
+    },
+    {
+    code: "Ngaski",
+    description: "Ngaski"
+    },
+    {
+    code: "Sakaba",
+    description: "Sakaba"
+    },
+    {
+    code: "Shanga",
+    description: "Shanga"
+    },
+    {
+    code: "Suru",
+    description: "Suru"
+    },
+    {
+    code: "Wasagu/Danko",
+    description: "Wasagu/Danko"
+    },
+    {
+    code: "Yauri",
+    description: "Yauri"
+    },
+    {
+    code: "Zuru",
+    description: "Zuru"
+    }
+    ]
+    },
+    {
+    property: "Kogi",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Adavi",
+    description: "Adavi"
+    },
+    {
+    code: "Ajaokuta",
+    description: "Ajaokuta"
+    },
+    {
+    code: "Ankpa",
+    description: "Ankpa"
+    },
+    {
+    code: "Bassa",
+    description: "Bassa"
+    },
+    {
+    code: "Dekina",
+    description: "Dekina"
+    },
+    {
+    code: "Ibaji",
+    description: "Ibaji"
+    },
+    {
+    code: "Idah",
+    description: "Idah"
+    },
+    {
+    code: "Igalamela-Odolu",
+    description: "Igalamela-Odolu"
+    },
+    {
+    code: "Ijumu",
+    description: "Ijumu"
+    },
+    {
+    code: "Kabba/Bunu",
+    description: "Kabba/Bunu"
+    },
+    {
+    code: "Kogi",
+    description: "Kogi"
+    },
+    {
+    code: "Lokoja",
+    description: "Lokoja"
+    },
+    {
+    code: "Mopa-Muro",
+    description: "Mopa-Muro"
+    },
+    {
+    code: "Ofu",
+    description: "Ofu"
+    },
+    {
+    code: "Ogori/Mangongo",
+    description: "Ogori/Mangongo"
+    },
+    {
+    code: "Okehi",
+    description: "Okehi"
+    },
+    {
+    code: "Okene",
+    description: "Okene"
+    },
+    {
+    code: "Olamabolo",
+    description: "Olamabolo"
+    },
+    {
+    code: "Omala",
+    description: "Omala"
+    },
+    {
+    code: "Yagba East ",
+    description: "Yagba East "
+    },
+    {
+    code: "Yagba West",
+    description: "Yagba West"
+    }
+    ]
+    },
+    {
+    property: "Kwara",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Asa",
+    description: "Asa"
+    },
+    {
+    code: "Baruten",
+    description: "Baruten"
+    },
+    {
+    code: "Edu",
+    description: "Edu"
+    },
+    {
+    code: "Ekiti",
+    description: "Ekiti"
+    },
+    {
+    code: "Ifelodun",
+    description: "Ifelodun"
+    },
+    {
+    code: "Ilorin East",
+    description: "Ilorin East"
+    },
+    {
+    code: "Ilorin West",
+    description: "Ilorin West"
+    },
+    {
+    code: "Irepodun",
+    description: "Irepodun"
+    },
+    {
+    code: "Isin",
+    description: "Isin"
+    },
+    {
+    code: "Kaiama",
+    description: "Kaiama"
+    },
+    {
+    code: "Moro",
+    description: "Moro"
+    },
+    {
+    code: "Offa",
+    description: "Offa"
+    },
+    {
+    code: "Oke-Ero",
+    description: "Oke-Ero"
+    },
+    {
+    code: "Oyun",
+    description: "Oyun"
+    },
+    {
+    code: "Pategi",
+    description: "Pategi"
+    }
+    ]
+    },
+    {
+    property: "Lagos",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Agege",
+    description: "Agege"
+    },
+    {
+    code: "Ajeromi-Ifelodun",
+    description: "Ajeromi-Ifelodun"
+    },
+    {
+    code: "Alimosho",
+    description: "Alimosho"
+    },
+    {
+    code: "Amuwo-Odofin",
+    description: "Amuwo-Odofin"
+    },
+    {
+    code: "Apapa",
+    description: "Apapa"
+    },
+    {
+    code: "Badagry",
+    description: "Badagry"
+    },
+    {
+    code: "Epe",
+    description: "Epe"
+    },
+    {
+    code: "Eti-Osa",
+    description: "Eti-Osa"
+    },
+    {
+    code: "Ibeju/Lekki",
+    description: "Ibeju/Lekki"
+    },
+    {
+    code: "Ifako-Ijaye ",
+    description: "Ifako-Ijaye "
+    },
+    {
+    code: "Ikeja",
+    description: "Ikeja"
+    },
+    {
+    code: "Ikorodu",
+    description: "Ikorodu"
+    },
+    {
+    code: "Kosofe",
+    description: "Kosofe"
+    },
+    {
+    code: "Lagos Island",
+    description: "Lagos Island"
+    },
+    {
+    code: "Lagos Mainland",
+    description: "Lagos Mainland"
+    },
+    {
+    code: "Mushin",
+    description: "Mushin"
+    },
+    {
+    code: "Ojo",
+    description: "Ojo"
+    },
+    {
+    code: "Oshodi-Isolo",
+    description: "Oshodi-Isolo"
+    },
+    {
+    code: "Shomolu",
+    description: "Shomolu"
+    },
+    {
+    code: "Surulere",
+    description: "Surulere"
+    }
+    ]
+    },
+    {
+    property: "Nasarawa",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Akwanga",
+    description: "Akwanga"
+    },
+    {
+    code: "Awe",
+    description: "Awe"
+    },
+    {
+    code: "Doma",
+    description: "Doma"
+    },
+    {
+    code: "Karu",
+    description: "Karu"
+    },
+    {
+    code: "Keana",
+    description: "Keana"
+    },
+    {
+    code: "Keffi",
+    description: "Keffi"
+    },
+    {
+    code: "Kokona",
+    description: "Kokona"
+    },
+    {
+    code: "Lafia",
+    description: "Lafia"
+    },
+    {
+    code: "Nasarawa",
+    description: "Nasarawa"
+    },
+    {
+    code: "Nasarawa-Eggon",
+    description: "Nasarawa-Eggon"
+    },
+    {
+    code: "Obi",
+    description: "Obi"
+    },
+    {
+    code: "Toto",
+    description: "Toto"
+    },
+    {
+    code: "Wamba",
+    description: "Wamba"
+    }
+    ]
+    },
+    {
+    property: "Niger",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Agaie",
+    description: "Agaie"
+    },
+    {
+    code: "Agwara",
+    description: "Agwara"
+    },
+    {
+    code: "Bida",
+    description: "Bida"
+    },
+    {
+    code: "Borgu",
+    description: "Borgu"
+    },
+    {
+    code: "Bosso",
+    description: "Bosso"
+    },
+    {
+    code: "Chanchaga",
+    description: "Chanchaga"
+    },
+    {
+    code: "Edati",
+    description: "Edati"
+    },
+    {
+    code: "Gbako",
+    description: "Gbako"
+    },
+    {
+    code: "Gurara",
+    description: "Gurara"
+    },
+    {
+    code: "Katcha",
+    description: "Katcha"
+    },
+    {
+    code: "Kontagora ",
+    description: "Kontagora "
+    },
+    {
+    code: "Lapai",
+    description: "Lapai"
+    },
+    {
+    code: "Lavun",
+    description: "Lavun"
+    },
+    {
+    code: "Magama",
+    description: "Magama"
+    },
+    {
+    code: "Mariga",
+    description: "Mariga"
+    },
+    {
+    code: "Mashegu",
+    description: "Mashegu"
+    },
+    {
+    code: "Mokwa",
+    description: "Mokwa"
+    },
+    {
+    code: "Muya",
+    description: "Muya"
+    },
+    {
+    code: "Pailoro",
+    description: "Pailoro"
+    },
+    {
+    code: "Rafi",
+    description: "Rafi"
+    },
+    {
+    code: "Rijau",
+    description: "Rijau"
+    },
+    {
+    code: "Shiroro",
+    description: "Shiroro"
+    },
+    {
+    code: "Suleja",
+    description: "Suleja"
+    },
+    {
+    code: "Tafa",
+    description: "Tafa"
+    },
+    {
+    code: "Wushishi",
+    description: "Wushishi"
+    }
+    ]
+    },
+    {
+    property: "Ogun",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Abeokuta North",
+    description: "Abeokuta North"
+    },
+    {
+    code: "Abeokuta South",
+    description: "Abeokuta South"
+    },
+    {
+    code: "Ado-Odo/Ota",
+    description: "Ado-Odo/Ota"
+    },
+    {
+    code: "Egbado North",
+    description: "Egbado North"
+    },
+    {
+    code: "Egbado South",
+    description: "Egbado South"
+    },
+    {
+    code: "Ewekoro",
+    description: "Ewekoro"
+    },
+    {
+    code: "Ifo",
+    description: "Ifo"
+    },
+    {
+    code: "Ijebu East",
+    description: "Ijebu East"
+    },
+    {
+    code: "Ijebu North",
+    description: "Ijebu North"
+    },
+    {
+    code: "Ijebu North East",
+    description: "Ijebu North East"
+    },
+    {
+    code: "Ijebu Ode",
+    description: "Ijebu Ode"
+    },
+    {
+    code: "Ikenne",
+    description: "Ikenne"
+    },
+    {
+    code: "Imeko-Afon",
+    description: "Imeko-Afon"
+    },
+    {
+    code: "Ipokia",
+    description: "Ipokia"
+    },
+    {
+    code: "Obafemi-Owode",
+    description: "Obafemi-Owode"
+    },
+    {
+    code: "Ogun Waterside",
+    description: "Ogun Waterside"
+    },
+    {
+    code: "Odeda",
+    description: "Odeda"
+    },
+    {
+    code: "Odogbolu",
+    description: "Odogbolu"
+    },
+    {
+    code: "Remo North",
+    description: "Remo North"
+    },
+    {
+    code: "Shagamu",
+    description: "Shagamu"
+    }
+    ]
+    },
+    {
+    property: "Ondo",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Akoko North East",
+    description: "Akoko North East"
+    },
+    {
+    code: "Akoko North West",
+    description: "Akoko North West"
+    },
+    {
+    code: "Akoko South Akure East",
+    description: "Akoko South Akure East"
+    },
+    {
+    code: "Akoko South West",
+    description: "Akoko South West"
+    },
+    {
+    code: "Akure North",
+    description: "Akure North"
+    },
+    {
+    code: "Akure South",
+    description: "Akure South"
+    },
+    {
+    code: "Ese-Odo",
+    description: "Ese-Odo"
+    },
+    {
+    code: "Idanre",
+    description: "Idanre"
+    },
+    {
+    code: "Ifedore",
+    description: "Ifedore"
+    },
+    {
+    code: "Ilaje",
+    description: "Ilaje"
+    },
+    {
+    code: "Ile-Oluji",
+    description: "Ile-Oluji"
+    },
+    {
+    code: "Okeigbo",
+    description: "Okeigbo"
+    },
+    {
+    code: "Irele",
+    description: "Irele"
+    },
+    {
+    code: "Odigbo",
+    description: "Odigbo"
+    },
+    {
+    code: "Okitipupa",
+    description: "Okitipupa"
+    },
+    {
+    code: "Ondo East",
+    description: "Ondo East"
+    },
+    {
+    code: "Ondo West",
+    description: "Ondo West"
+    },
+    {
+    code: "Ose",
+    description: "Ose"
+    },
+    {
+    code: "Owo",
+    description: "Owo"
+    }
+    ]
+    },
+    {
+    property: "Osun",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Aiyedade",
+    description: "Aiyedade"
+    },
+    {
+    code: "Aiyedire",
+    description: "Aiyedire"
+    },
+    {
+    code: "Atakumosa East",
+    description: "Atakumosa East"
+    },
+    {
+    code: "Atakumosa West",
+    description: "Atakumosa West"
+    },
+    {
+    code: "Boluwaduro",
+    description: "Boluwaduro"
+    },
+    {
+    code: "Boripe",
+    description: "Boripe"
+    },
+    {
+    code: "Ede North",
+    description: "Ede North"
+    },
+    {
+    code: "Ede South",
+    description: "Ede South"
+    },
+    {
+    code: "Egbedore",
+    description: "Egbedore"
+    },
+    {
+    code: "Ejigbo",
+    description: "Ejigbo"
+    },
+    {
+    code: "Ife Central",
+    description: "Ife Central"
+    },
+    {
+    code: "Ife East",
+    description: "Ife East"
+    },
+    {
+    code: "Ife North",
+    description: "Ife North"
+    },
+    {
+    code: "Ife South",
+    description: "Ife South"
+    },
+    {
+    code: "Ifedayo",
+    description: "Ifedayo"
+    },
+    {
+    code: "Ifelodun",
+    description: "Ifelodun"
+    },
+    {
+    code: "Ila",
+    description: "Ila"
+    },
+    {
+    code: "Ilesha East",
+    description: "Ilesha East"
+    },
+    {
+    code: "Ilesha West",
+    description: "Ilesha West"
+    },
+    {
+    code: "Irepodun",
+    description: "Irepodun"
+    },
+    {
+    code: "Irewole",
+    description: "Irewole"
+    },
+    {
+    code: "Isokan",
+    description: "Isokan"
+    },
+    {
+    code: "Iwo",
+    description: "Iwo"
+    },
+    {
+    code: "Obokun",
+    description: "Obokun"
+    },
+    {
+    code: "Odo-Otin",
+    description: "Odo-Otin"
+    },
+    {
+    code: "Ola-Oluwa",
+    description: "Ola-Oluwa"
+    },
+    {
+    code: "Olorunda",
+    description: "Olorunda"
+    },
+    {
+    code: "Oriade",
+    description: "Oriade"
+    },
+    {
+    code: "Orolu",
+    description: "Orolu"
+    },
+    {
+    code: "Osogbo",
+    description: "Osogbo"
+    }
+    ]
+    },
+    {
+    property: "Oyo",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Afijio",
+    description: "Afijio"
+    },
+    {
+    code: "Akinyele",
+    description: "Akinyele"
+    },
+    {
+    code: "Atiba",
+    description: "Atiba"
+    },
+    {
+    code: "Atigbo",
+    description: "Atigbo"
+    },
+    {
+    code: "Egbeda",
+    description: "Egbeda"
+    },
+    {
+    code: "IbadanCentral",
+    description: "IbadanCentral"
+    },
+    {
+    code: "Ibadan North",
+    description: "Ibadan North"
+    },
+    {
+    code: "Ibadan North West",
+    description: "Ibadan North West"
+    },
+    {
+    code: "Ibadan South East",
+    description: "Ibadan South East"
+    },
+    {
+    code: "Ibadan South West",
+    description: "Ibadan South West"
+    },
+    {
+    code: "Ibarapa Central",
+    description: "Ibarapa Central"
+    },
+    {
+    code: "Ibarapa East",
+    description: "Ibarapa East"
+    },
+    {
+    code: "Ibarapa North",
+    description: "Ibarapa North"
+    },
+    {
+    code: "Ido",
+    description: "Ido"
+    },
+    {
+    code: "Irepo",
+    description: "Irepo"
+    },
+    {
+    code: "Iseyin",
+    description: "Iseyin"
+    },
+    {
+    code: "Itesiwaju",
+    description: "Itesiwaju"
+    },
+    {
+    code: "Iwajowa",
+    description: "Iwajowa"
+    },
+    {
+    code: "Kajola",
+    description: "Kajola"
+    },
+    {
+    code: "Lagelu Ogbomosho North",
+    description: "Lagelu Ogbomosho North"
+    },
+    {
+    code: "Ogbmosho South",
+    description: "Ogbmosho South"
+    },
+    {
+    code: "Ogo Oluwa",
+    description: "Ogo Oluwa"
+    },
+    {
+    code: "Olorunsogo",
+    description: "Olorunsogo"
+    },
+    {
+    code: "Oluyole",
+    description: "Oluyole"
+    },
+    {
+    code: "Ona-Ara",
+    description: "Ona-Ara"
+    },
+    {
+    code: "Orelope",
+    description: "Orelope"
+    },
+    {
+    code: "Ori Ire",
+    description: "Ori Ire"
+    },
+    {
+    code: "Oyo East",
+    description: "Oyo East"
+    },
+    {
+    code: "Oyo West",
+    description: "Oyo West"
+    },
+    {
+    code: "Saki East",
+    description: "Saki East"
+    },
+    {
+    code: "Saki West",
+    description: "Saki West"
+    },
+    {
+    code: "Surulere",
+    description: "Surulere"
+    }
+    ]
+    },
+    {
+    property: "Plateau",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Ladi",
+    description: "Ladi"
+    },
+    {
+    code: "Bassa",
+    description: "Bassa"
+    },
+    {
+    code: "Bokkos",
+    description: "Bokkos"
+    },
+    {
+    code: "Jos East",
+    description: "Jos East"
+    },
+    {
+    code: "Jos North",
+    description: "Jos North"
+    },
+    {
+    code: "Jos South",
+    description: "Jos South"
+    },
+    {
+    code: "Kanam",
+    description: "Kanam"
+    },
+    {
+    code: "Kanke",
+    description: "Kanke"
+    },
+    {
+    code: "Langtang North",
+    description: "Langtang North"
+    },
+    {
+    code: "Langtang South",
+    description: "Langtang South"
+    },
+    {
+    code: "Mangu",
+    description: "Mangu"
+    },
+    {
+    code: "Mikang",
+    description: "Mikang"
+    },
+    {
+    code: "Pankshin",
+    description: "Pankshin"
+    },
+    {
+    code: "Qua'an Pan",
+    description: "Qua'an Pan"
+    },
+    {
+    code: "Riyom",
+    description: "Riyom"
+    },
+    {
+    code: "Shendam",
+    description: "Shendam"
+    },
+    {
+    code: "Wase",
+    description: "Wase"
+    }
+    ]
+    },
+    {
+    property: "Rivers",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Abua/Odual",
+    description: "Abua/Odual"
+    },
+    {
+    code: "Ahoada East",
+    description: "Ahoada East"
+    },
+    {
+    code: "Ahoada West",
+    description: "Ahoada West"
+    },
+    {
+    code: "Akuku Toru",
+    description: "Akuku Toru"
+    },
+    {
+    code: "Andoni",
+    description: "Andoni"
+    },
+    {
+    code: "Asari-Toru",
+    description: "Asari-Toru"
+    },
+    {
+    code: "Bonny",
+    description: "Bonny"
+    },
+    {
+    code: "Degema",
+    description: "Degema"
+    },
+    {
+    code: "Emohua",
+    description: "Emohua"
+    },
+    {
+    code: "Eleme",
+    description: "Eleme"
+    },
+    {
+    code: "Etche",
+    description: "Etche"
+    },
+    {
+    code: "Gokana",
+    description: "Gokana"
+    },
+    {
+    code: "Ikwerre",
+    description: "Ikwerre"
+    },
+    {
+    code: "Khana",
+    description: "Khana"
+    },
+    {
+    code: "Obia/Akpor",
+    description: "Obia/Akpor"
+    },
+    {
+    code: "Ogba/Egbema/Ndoni",
+    description: "Ogba/Egbema/Ndoni"
+    },
+    {
+    code: "Ogu/Bolo",
+    description: "Ogu/Bolo"
+    },
+    {
+    code: "Okrika",
+    description: "Okrika"
+    },
+    {
+    code: "Omumma",
+    description: "Omumma"
+    },
+    {
+    code: "Opobo/Nkoro",
+    description: "Opobo/Nkoro"
+    },
+    {
+    code: "Oyigbo",
+    description: "Oyigbo"
+    },
+    {
+    code: "Port-Harcourt",
+    description: "Port-Harcourt"
+    },
+    {
+    code: "Tai",
+    description: "Tai"
+    }
+    ]
+    },
+    {
+    property: "Sokoto",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Binji",
+    description: "Binji"
+    },
+    {
+    code: "Bodinga",
+    description: "Bodinga"
+    },
+    {
+    code: "Dange-shnsi",
+    description: "Dange-shnsi"
+    },
+    {
+    code: "Gada",
+    description: "Gada"
+    },
+    {
+    code: "Goronyo",
+    description: "Goronyo"
+    },
+    {
+    code: "Gudu",
+    description: "Gudu"
+    },
+    {
+    code: "Gawabawa",
+    description: "Gawabawa"
+    },
+    {
+    code: "Illela",
+    description: "Illela"
+    },
+    {
+    code: "Isa",
+    description: "Isa"
+    },
+    {
+    code: "Kware",
+    description: "Kware"
+    },
+    {
+    code: "kebbe",
+    description: "kebbe"
+    },
+    {
+    code: "Rabah",
+    description: "Rabah"
+    },
+    {
+    code: "Sabon birni",
+    description: "Sabon birni"
+    },
+    {
+    code: "Shagari",
+    description: "Shagari"
+    },
+    {
+    code: "Silame",
+    description: "Silame"
+    },
+    {
+    code: "Sokoto North",
+    description: "Sokoto North"
+    },
+    {
+    code: "Sokoto South",
+    description: "Sokoto South"
+    },
+    {
+    code: "Tambuwal",
+    description: "Tambuwal"
+    },
+    {
+    code: "Tqngaza",
+    description: "Tqngaza"
+    },
+    {
+    code: "Tureta",
+    description: "Tureta"
+    },
+    {
+    code: "Wamako",
+    description: "Wamako"
+    },
+    {
+    code: "Wurno",
+    description: "Wurno"
+    },
+    {
+    code: "Yabo",
+    description: "Yabo"
+    }
+    ]
+    },
+    {
+    property: "Taraba",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Ardo-kola",
+    description: "Ardo-kola"
+    },
+    {
+    code: "Bali",
+    description: "Bali"
+    },
+    {
+    code: "Donga",
+    description: "Donga"
+    },
+    {
+    code: "Gashaka",
+    description: "Gashaka"
+    },
+    {
+    code: "Cassol",
+    description: "Cassol"
+    },
+    {
+    code: "Ibi",
+    description: "Ibi"
+    },
+    {
+    code: "Jalingo",
+    description: "Jalingo"
+    },
+    {
+    code: "Karin-Lamido",
+    description: "Karin-Lamido"
+    },
+    {
+    code: "Kurmi",
+    description: "Kurmi"
+    },
+    {
+    code: "Lau",
+    description: "Lau"
+    },
+    {
+    code: "Sardauna",
+    description: "Sardauna"
+    },
+    {
+    code: "Takum",
+    description: "Takum"
+    },
+    {
+    code: "Ussa",
+    description: "Ussa"
+    },
+    {
+    code: "Wukari",
+    description: "Wukari"
+    },
+    {
+    code: "Yorro",
+    description: "Yorro"
+    },
+    {
+    code: "Zing",
+    description: "Zing"
+    }
+    ]
+    },
+    {
+    property: "Yobe",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Bade",
+    description: "Bade"
+    },
+    {
+    code: "Bursari",
+    description: "Bursari"
+    },
+    {
+    code: "Damaturu",
+    description: "Damaturu"
+    },
+    {
+    code: "Fika",
+    description: "Fika"
+    },
+    {
+    code: "Fune",
+    description: "Fune"
+    },
+    {
+    code: "Geidam",
+    description: "Geidam"
+    },
+    {
+    code: "Gujba",
+    description: "Gujba"
+    },
+    {
+    code: "Gulani",
+    description: "Gulani"
+    },
+    {
+    code: "Jakusko",
+    description: "Jakusko"
+    },
+    {
+    code: "Karasuwa",
+    description: "Karasuwa"
+    },
+    {
+    code: "Karawa",
+    description: "Karawa"
+    },
+    {
+    code: "Machina",
+    description: "Machina"
+    },
+    {
+    code: "Nangere",
+    description: "Nangere"
+    },
+    {
+    code: "Nguru Potiskum",
+    description: "Nguru Potiskum"
+    },
+    {
+    code: "Tarmua",
+    description: "Tarmua"
+    },
+    {
+    code: "Yunusari",
+    description: "Yunusari"
+    },
+    {
+    code: "Yusufari",
+    description: "Yusufari"
+    }
+    ]
+    },
+    {
+    property: "Zamfara",
+    parentComponent: "All Components",
+    listValues: [
+    {
+    code: "Anka",
+    description: "Anka"
+    },
+    {
+    code: "Bakura",
+    description: "Bakura"
+    },
+    {
+    code: "Birnin Magaji",
+    description: "Birnin Magaji"
+    },
+    {
+    code: "Bukkuyum",
+    description: "Bukkuyum"
+    },
+    {
+    code: "Bungudu",
+    description: "Bungudu"
+    },
+    {
+    code: "Gummi",
+    description: "Gummi"
+    },
+    {
+    code: "Gusau",
+    description: "Gusau"
+    },
+    {
+    code: "Kaura",
+    description: "Kaura"
+    },
+    {
+    code: "Namoda",
+    description: "Namoda"
+    },
+    {
+    code: "Maradun",
+    description: "Maradun"
+    },
+    {
+    code: "Maru",
+    description: "Maru"
+    },
+    {
+    code: "Shinkafi",
+    description: "Shinkafi"
+    },
+    {
+    code: "Talata Mafara",
+    description: "Talata Mafara"
+    },
+    {
+    code: "Tsafe",
+    description: "Tsafe"
+    },
+    {
+    code: "Zurmi",
+    description: "Zurmi"
+    }
+    ]
+    }
+    ]
+    }
